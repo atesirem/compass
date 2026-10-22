@@ -1,0 +1,125 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum GuideStatus {
+  DRAFT
+  REVIEW
+  PUBLISHED
+}
+
+enum TimelineStage {
+  PRE_ARRIVAL
+  FIRST_WEEK
+  FIRST_MONTH
+  FIRST_SIX_MONTHS
+  LONG_TERM
+}
+
+enum UserRole {
+  ADMIN
+  EDITOR
+  USER
+}
+
+model Module {
+  id           String              @id @default(cuid())
+  slug         String              @unique
+  position     Int                 @default(0)
+  icon         String?
+  translations ModuleTranslation[]
+  guides       Guide[]
+}
+
+model ModuleTranslation {
+  id       String @id @default(cuid())
+  moduleId String
+  locale   String
+  title    String
+  summary  String
+  module   Module @relation(fields: [moduleId], references: [id], onDelete: Cascade)
+
+  @@unique([moduleId, locale])
+}
+
+model Guide {
+  id             String             @id @default(cuid())
+  slug           String             @unique
+  moduleId       String
+  position       Int                @default(0)
+  status         GuideStatus        @default(DRAFT)
+  stage          TimelineStage?
+  // Date when the content was last checked against official sources
+  lastVerifiedAt DateTime?
+  sourceUrls     String[]
+  createdAt      DateTime           @default(now())
+  updatedAt      DateTime           @updatedAt
+  module         Module             @relation(fields: [moduleId], references: [id], onDelete: Cascade)
+  translations   GuideTranslation[]
+}
+
+model GuideTranslation {
+  id           String @id @default(cuid())
+  guideId      String
+  locale       String
+  title        String
+  summary      String
+  // Markdown body; may contain {{setting:key}} placeholders for volatile facts
+  bodyMarkdown String
+  // True while the text still needs a check by a native speaker (e.g. machine-assisted translations)
+  needsReview  Boolean @default(false)
+  guide        Guide  @relation(fields: [guideId], references: [id], onDelete: Cascade)
+
+  @@unique([guideId, locale])
+}
+
+model GlossaryTerm {
+  id           String                    @id @default(cuid())
+  german       String                    @unique
+  translations GlossaryTermTranslation[]
+}
+
+model GlossaryTermTranslation {
+  id         String       @id @default(cuid())
+  termId     String
+  locale     String
+  meaning    String
+  term       GlossaryTerm @relation(fields: [termId], references: [id], onDelete: Cascade)
+
+  @@unique([termId, locale])
+}
+
+// Volatile facts (salary thresholds, prices) kept in one place
+model Setting {
+  key       String   @id
+  value     String
+  note      String?
+  updatedAt DateTime @updatedAt
+}
+
+model User {
+  id           String   @id @default(cuid())
+  email        String   @unique
+  passwordHash String
+  role         UserRole @default(USER)
+  createdAt    DateTime @default(now())
+  // Sessions issued before this moment are rejected (set when the password is created or changed)
+  passwordUpdatedAt DateTime @default(now())
+}
+
+// Failed and successful admin login attempts, used to slow down password guessing
+model LoginAttempt {
+  id        String   @id @default(cuid())
+  email     String
+  ip        String
+  success   Boolean
+  createdAt DateTime @default(now())
+
+  @@index([email, createdAt])
+  @@index([ip, createdAt])
+}

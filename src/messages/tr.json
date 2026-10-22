@@ -1,0 +1,238 @@
+{
+  "Site": {
+    "name": "Pusula",
+    "tagline": "Almanya'da yönünü bul: kaynaklı, tarihli, adım adım rehberler."
+  },
+  "Nav": {
+    "home": "Ana sayfa",
+    "language": "Dil",
+    "switchToLight": "Açık temaya geç",
+    "switchToDark": "Koyu temaya geç",
+    "install": "Uygulamayı yükle",
+    "guides": "Rehberler",
+    "timeline": "Zaman çizelgesi",
+    "glossary": "Sözlük",
+    "search": "Ara",
+    "menu": "Ana menü",
+    "roadmap": "Yol haritası"
+  },
+  "Home": {
+    "modulesTitle": "Modüller",
+    "guidesCount": "{count, plural, =0 {Henüz rehber yok} one {1 rehber} other {# rehber}}",
+    "badge": "Türkçe öncelikli · Deutsch · English",
+    "heroTitle": "Almanya'da yönünü bul.",
+    "heroText": "Gelmeden önceki vizeden ilk yılın bürokrasisine kadar, kaynaklı ve tarihli rehberlerle sıradaki adımı gör.",
+    "modulesKicker": "Rotanı seç",
+    "ctaGuides": "Rehberlere göz at",
+    "stagesTitle": "Süreç boyunca",
+    "stagesText": "Zaman çizelgesine göre rehberlere git.",
+    "ctaRoadmap": "Yol haritanı oluştur"
+  },
+  "Module": {
+    "guides": "Rehberler",
+    "empty": "Bu modül için henüz yayınlanmış rehber yok."
+  },
+  "Guide": {
+    "lastVerified": "Son doğrulama: {date}",
+    "notVerified": "Bu içerik henüz resmi kaynaklardan doğrulanmadı.",
+    "sources": "Resmi kaynaklar",
+    "back": "Modüle dön",
+    "translationMissing": "Bu rehber seçtiğin dilde henüz yok, Türkçe sürüm gösteriliyor.",
+    "verified": "Son doğrulama: {date}",
+    "stale": "Son doğrulama: {date}. Bilgiler eskimiş olabilir, resmi kaynağı kontrol et."
+  },
+  "Disclaimer": "Bu sitedeki bilgiler genel bilgilendirme amaçlıdır; hukuki, mali veya tıbbi tavsiye değildir. Kurallar değişebilir, lütfen resmi kaynakları kontrol et.",
+  "NotFound": {
+    "title": "Sayfa bulunamadı",
+    "home": "Ana sayfaya dön"
+  },
+  "Footer": {
+    "imprint": "Impressum",
+    "privacy": "Datenschutz",
+    "disclaimer": "Sorumluluk reddi",
+    "legalNav": "Yasal bilgiler"
+  },
+  "Legal": {
+    "updated": "Son güncelleme: {date}",
+    "germanVersion": "Bağlayıcı Almanca sürümü aç"
+  },
+  "Search": {
+    "title": "Ara",
+    "placeholder": "Ne arıyorsun? Örn. Anmeldung",
+    "button": "Ara",
+    "results": "{count, plural, =0 {Sonuç yok} one {1 sonuç} other {# sonuç}}",
+    "none": "Bu arama için yayınlanmış rehber bulunamadı. Başka bir kelime dene.",
+    "hint": "En az 2 harf yaz.",
+    "inModule": "Modül"
+  },
+  "Timeline": {
+    "title": "Zaman çizelgesi",
+    "intro": "Rehberleri Almanya'daki sürece göre sıralı gör: gelmeden önce, ilk hafta, ilk ay, ilk 6 ay ve uzun vade.",
+    "empty": "Bu aşamada henüz yayınlanmış rehber yok.",
+    "other": "Diğer",
+    "stages": {
+      "PRE_ARRIVAL": "Gelmeden önce",
+      "FIRST_WEEK": "İlk hafta",
+      "FIRST_MONTH": "İlk ay",
+      "FIRST_SIX_MONTHS": "İlk 6 ay",
+      "LONG_TERM": "Uzun vade"
+    }
+  },
+  "Glossary": {
+    "title": "Sözlük",
+    "intro": "Almanya'da sık karşılaşacağın resmi terimler ve anlamları.",
+    "placeholder": "Terim ara",
+    "empty": "Sonuç bulunamadı.",
+    "count": "{count, plural, =0 {Terim yok} one {1 terim} other {# terim}}"
+  },
+  "Roadmap": {
+    "title": "Kişisel yol haritan",
+    "intro": "Birkaç soruya cevap ver, sana özel tarihli bir yapılacaklar listesi çıksın. Bilgilerin yalnızca bu tarayıcıda saklanır, sunucuya gönderilmez.",
+    "formTitle": "Kendin hakkında",
+    "permit": "Hangi izinle geliyorsun?",
+    "household": "Kiminle geliyorsun veya geleceksin?",
+    "spouse": "Eşim",
+    "children": "Çocuğum / çocuklarım",
+    "city": "Şehir (isteğe bağlı)",
+    "cityPlaceholder": "Örn. Berlin",
+    "arrival": "Geliş tarihin (planlanan veya gerçek)",
+    "goals": "Hedeflerin",
+    "submit": "Yol haritasını oluştur",
+    "required": "Geliş tarihini seç.",
+    "summary": "{permit} · geliş: {date}",
+    "progress": "{done} / {total} görev tamam",
+    "edit": "Cevapları değiştir",
+    "print": "Yazdır",
+    "reset": "Sıfırla",
+    "confirmReset": "Yol haritası ve işaretlediklerin silinsin mi?",
+    "due": "En geç: {date}",
+    "overdue": "Gecikmiş",
+    "done": "Tamam",
+    "guideLink": "Rehbere git",
+    "empty": "Bu aşamada görev yok.",
+    "note": "Bu liste genel bilgidir ve kişisel durumunu değerlendirmez. Süreleri ve şartları her zaman resmi kurumdan doğrula. Tarihler, geliş tarihine göre bir öneridir.",
+    "permits": {
+      "blueCard": "Mavi Kart (Blaue Karte EU)",
+      "skilledWorker": "Nitelikli çalışan (§ 18a / § 18b)",
+      "opportunityCard": "Fırsat Kartı (Chancenkarte)",
+      "ausbildung": "Ausbildung (mesleki eğitim)",
+      "familyReunion": "Aile birleşimi",
+      "other": "Başka bir izin"
+    },
+    "goalLabels": {
+      "language": "B1 Almanca sertifikası",
+      "permanentResidence": "Süresiz oturum",
+      "citizenship": "Alman vatandaşlığı"
+    },
+    "tasks": {
+      "documents": {
+        "title": "Belgeleri hazırla: Türk belgeleri, apostil, yeminli çeviri",
+        "note": "Çok dilli Formül belgeleri apostil gerektirmez; çeviri için kuruma sor."
+      },
+      "diploma": {
+        "title": "Diploma denkliğini kontrol et (anabin)",
+        "note": "Gerekirse ZAB değerlendirmesi veya meslek tanıması başlat; yaklaşık 3 ay sürer."
+      },
+      "languageVisa": {
+        "title": "Vize için Almanca sertifikanı hazırla",
+        "note": "Genelde aile birleşiminde A1, Ausbildung'da B1; kabul edilen sertifikayı kuruma sor."
+      },
+      "visa": {
+        "title": "Vize başvurusunu yap",
+        "note": "Randevuyu erken al; belge listesini Almanya'nın temsilciliğinden doğrula."
+      },
+      "blockedAccount": {
+        "title": "Bloke hesabı (Sperrkonto) aç",
+        "note": "Fırsat Kartı için geçim kanıtı; tutarı temsilcilikten doğrula."
+      },
+      "housing": {
+        "title": "Ev ara, kira sözleşmesini ve Wohnungsgeberbestätigung'u al",
+        "note": "Anmeldung için ev sahibinin onayı gerekir."
+      },
+      "healthChoose": {
+        "title": "Sağlık sigortası kasanı seç",
+        "note": "İşe başlamadan önce kasaya üyelik başvurusu yap ve işverene bildir."
+      },
+      "anmeldung": {
+        "title": "Anmeldung: adresini kaydet",
+        "note": "Yasal süre taşınmadan sonra iki hafta; ilk hafta içinde yap."
+      },
+      "deutschlandticket": {
+        "title": "Ulaşım: Deutschlandticket'i ayarla",
+        "note": "Aylık iptal edilebilir; ayın 10'una kadar iptal edersen ay sonunda biter."
+      },
+      "residencePermit": {
+        "title": "Ausländerbehörde'den oturum izni randevusu al",
+        "note": "Vizeyle girdiysen, oturum iznini vizen dolmadan başlat."
+      },
+      "bank": {
+        "title": "Banka hesabı aç",
+        "note": "Anmeldung belgesi gerekir; kabul edilen belgeler bankaya göre değişir."
+      },
+      "schufa": {
+        "title": "Ev başvurusu için SCHUFA BonitätsAuskunft al",
+        "note": "Ücretsiz veri kopyası ev sahibine uygun değildir."
+      },
+      "taxId": {
+        "title": "Steuer-ID mektubunu kontrol et ve işverene ilet",
+        "note": "Anmeldung'dan sonra postayla gelir."
+      },
+      "taxClass": {
+        "title": "Evliysen vergi sınıfını birlikte seç",
+        "note": "III/V veya IV ve Faktorverfahren; Finanzamt'a danış."
+      },
+      "rundfunkbeitrag": {
+        "title": "Rundfunkbeitrag'a kaydol",
+        "note": "Konut başına bir ücret; ev arkadaşınla çift kayıt yapma."
+      },
+      "doctor": {
+        "title": "Hausarzt bul, 112 ve 116117 farkını öğren",
+        "note": "Uzman randevusu için sevk ve aciliyet kodu gerekebilir."
+      },
+      "familyInsurance": {
+        "title": "Aile sigortası başvurusu yap",
+        "note": "Aile bireyinin Almanya'da yaşaması şart; gelir sınırını kontrol et."
+      },
+      "kindergeld": {
+        "title": "Kindergeld başvurusu yap",
+        "note": "Steuer-ID ve oturum izni türü önemli; Chancenkarte hak vermez."
+      },
+      "kita": {
+        "title": "Kita-Gutschein ve Kita yeri için başvur",
+        "note": "Kurallar şehre göre değişir; Jugendamt'a sor."
+      },
+      "integrationCourse": {
+        "title": "Integrationskurs hakkını kontrol et",
+        "note": "Hak, oturum izninin verilişinden bir yıl sonra sona erer; muafiyeti kurstan önce iste."
+      },
+      "bzst": {
+        "title": "Steuer-ID gelmediyse BZSt'ye başvur",
+        "note": "Anmeldung'dan üç ay sonra kimlik ve Meldebestätigung ile."
+      },
+      "driving": {
+        "title": "Türk ehliyetini çevirme sürecini başlat",
+        "note": "İkametten itibaren 6 ay; Türkiye için sınav gerekir."
+      },
+      "languageB1": {
+        "title": "B1 Almanca sertifikası al",
+        "note": "Süresiz oturum ve vatandaşlık için gerekir."
+      },
+      "permBlueCard": {
+        "title": "Mavi Kart ile süresiz oturum başvurusu",
+        "note": "B1 ile 21 ay, A1 ile 27 ay; emeklilik primi ve nitelikli iş şart."
+      },
+      "permSkilled": {
+        "title": "Süresiz oturum başvurusu (nitelikli çalışan)",
+        "note": "3 yıl ve 36 ay emeklilik primi; yeterli Almanca."
+      },
+      "permStandard": {
+        "title": "Süresiz oturum başvurusu (genel yol)",
+        "note": "5 yıl ve 60 ay emeklilik primi; şartları kontrol et."
+      },
+      "citizenship": {
+        "title": "Vatandaşlık başvurusu (Einbürgerung)",
+        "note": "5 yıl, B1, Einbürgerungstest ve geçim şartı."
+      }
+    }
+  }
+}

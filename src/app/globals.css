@@ -1,0 +1,106 @@
+@import "tailwindcss";
+
+/*
+  Design tokens.
+  Raw palette first, then semantic tokens per theme. Components only use the
+  semantic tokens (bg-page, text-fg, ...), so a theme change never touches markup.
+*/
+:root {
+  /* Palette */
+  --ink-900: #061a20;
+  --ink-800: #0a2a33;
+  --ink-700: #12414d;
+  --ink-600: #3c5a60;
+  --teal-600: #1f6f78;
+  --teal-300: #5fc2c6;
+  --mist-50: #f1f6f5;
+  --mist-200: #d3e2e0;
+  --mist-300: #cfe3e0;
+  --coral-500: #ff7a59;
+  --coral-400: #ff9277;
+  --white: #ffffff;
+
+  /* Semantic tokens: light theme (default) */
+  --page: var(--mist-50);
+  --surface: var(--white);
+  --fg: var(--ink-800);
+  --fg-muted: var(--ink-600);
+  --line: var(--mist-200);
+  --accent: var(--teal-600);
+  --focus: var(--teal-600);
+
+  /* Header, hero and footer stay dark in both themes */
+  --brand: var(--ink-800);
+  --brand-2: var(--ink-700);
+  --on-brand: var(--mist-50);
+  --on-brand-muted: var(--mist-300);
+  --brand-line: #3e6b6f;
+  --brand-accent: #9fd0c9;
+
+  --cta: var(--coral-500);
+  --cta-hover: var(--coral-400);
+  --on-cta: var(--ink-800);
+
+  color-scheme: light;
+}
+
+/* Semantic tokens: dark theme. Applied by the OS setting unless the user picked light. */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --page: var(--ink-900);
+    --surface: #0d2f38;
+    --fg: #eaf4f2;
+    --fg-muted: #a9c6c3;
+    --line: #1d4a55;
+    --accent: var(--teal-300);
+    --focus: var(--teal-300);
+    --brand: #04141a;
+    --brand-2: var(--ink-700);
+    color-scheme: dark;
+  }
+}
+
+:root[data-theme="dark"] {
+  --page: var(--ink-900);
+  --surface: #0d2f38;
+  --fg: #eaf4f2;
+  --fg-muted: #a9c6c3;
+  --line: #1d4a55;
+  --accent: var(--teal-300);
+  --focus: var(--teal-300);
+  --brand: #04141a;
+  --brand-2: var(--ink-700);
+  color-scheme: dark;
+}
+
+@theme inline {
+  --font-sans: var(--font-space-grotesk), system-ui, sans-serif;
+  --color-page: var(--page);
+  --color-surface: var(--surface);
+  --color-fg: var(--fg);
+  --color-fg-muted: var(--fg-muted);
+  --color-line: var(--line);
+  --color-accent: var(--accent);
+  --color-brand: var(--brand);
+  --color-brand-2: var(--brand-2);
+  --color-on-brand: var(--on-brand);
+  --color-on-brand-muted: var(--on-brand-muted);
+  --color-brand-line: var(--brand-line);
+  --color-brand-accent: var(--brand-accent);
+  --color-cta: var(--cta);
+  --color-cta-hover: var(--cta-hover);
+  --color-on-cta: var(--on-cta);
+}
+
+/* Base rules live in the base layer so utility classes (e.g. on the admin body) can override them */
+@layer base {
+  body {
+    background: var(--page);
+    color: var(--fg);
+  }
+
+  :focus-visible {
+    outline: 3px solid var(--focus);
+    outline-offset: 2px;
+  }
+}

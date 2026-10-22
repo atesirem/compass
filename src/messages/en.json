@@ -1,0 +1,238 @@
+{
+  "Site": {
+    "name": "Pusula",
+    "tagline": "Find your way in Germany: sourced, dated, step-by-step guides."
+  },
+  "Nav": {
+    "home": "Home",
+    "language": "Language",
+    "switchToLight": "Switch to light theme",
+    "switchToDark": "Switch to dark theme",
+    "install": "Install app",
+    "guides": "Guides",
+    "timeline": "Timeline",
+    "glossary": "Glossary",
+    "search": "Search",
+    "menu": "Main menu",
+    "roadmap": "Roadmap"
+  },
+  "Home": {
+    "modulesTitle": "Modules",
+    "guidesCount": "{count, plural, =0 {No guides yet} one {1 guide} other {# guides}}",
+    "badge": "Turkish first · Deutsch · English",
+    "heroTitle": "Find your way in Germany.",
+    "heroText": "From the visa before you arrive to the paperwork of your first year, sourced and dated guides show you the next step.",
+    "modulesKicker": "Choose your route",
+    "ctaGuides": "Browse the guides",
+    "stagesTitle": "Along your path",
+    "stagesText": "Go to the guides by timeline.",
+    "ctaRoadmap": "Create your roadmap"
+  },
+  "Module": {
+    "guides": "Guides",
+    "empty": "There are no published guides in this module yet."
+  },
+  "Guide": {
+    "lastVerified": "Last verified: {date}",
+    "notVerified": "This content has not been verified against official sources yet.",
+    "sources": "Official sources",
+    "back": "Back to module",
+    "translationMissing": "This guide is not available in the selected language yet, showing the Turkish version.",
+    "verified": "Last verified: {date}",
+    "stale": "Last verified: {date}. The information may be outdated, check the official source."
+  },
+  "Disclaimer": "The information on this site is for general guidance only and is not legal, financial or medical advice. Rules can change, please check the official sources.",
+  "NotFound": {
+    "title": "Page not found",
+    "home": "Back to home"
+  },
+  "Footer": {
+    "imprint": "Impressum",
+    "privacy": "Datenschutz",
+    "disclaimer": "Disclaimer",
+    "legalNav": "Legal"
+  },
+  "Legal": {
+    "updated": "Last updated: {date}",
+    "germanVersion": "Open the binding German version"
+  },
+  "Search": {
+    "title": "Search",
+    "placeholder": "What are you looking for? e.g. Anmeldung",
+    "button": "Search",
+    "results": "{count, plural, =0 {No results} one {1 result} other {# results}}",
+    "none": "No published guide matches this search. Try another word.",
+    "hint": "Type at least 2 letters.",
+    "inModule": "Module"
+  },
+  "Timeline": {
+    "title": "Timeline",
+    "intro": "See the guides in the order of your path in Germany: before you arrive, first week, first month, first 6 months and long term.",
+    "empty": "No published guide for this stage yet.",
+    "other": "Other",
+    "stages": {
+      "PRE_ARRIVAL": "Before you arrive",
+      "FIRST_WEEK": "First week",
+      "FIRST_MONTH": "First month",
+      "FIRST_SIX_MONTHS": "First 6 months",
+      "LONG_TERM": "Long term"
+    }
+  },
+  "Glossary": {
+    "title": "Glossary",
+    "intro": "Official terms you will often meet in Germany, explained.",
+    "placeholder": "Search terms",
+    "empty": "No results.",
+    "count": "{count, plural, =0 {No terms} one {1 term} other {# terms}}"
+  },
+  "Roadmap": {
+    "title": "Your personal roadmap",
+    "intro": "Answer a few questions and get a personal to-do list with dates. Your answers are stored only in this browser and are not sent to a server.",
+    "formTitle": "About you",
+    "permit": "Which permit are you coming with?",
+    "household": "Who is coming with you, or will join you?",
+    "spouse": "My spouse",
+    "children": "My child / children",
+    "city": "City (optional)",
+    "cityPlaceholder": "e.g. Berlin",
+    "arrival": "Your arrival date (planned or actual)",
+    "goals": "Your goals",
+    "submit": "Create roadmap",
+    "required": "Choose the arrival date.",
+    "summary": "{permit} · arrival: {date}",
+    "progress": "{done} of {total} tasks done",
+    "edit": "Change answers",
+    "print": "Print",
+    "reset": "Reset",
+    "confirmReset": "Delete the roadmap and your ticks?",
+    "due": "By: {date}",
+    "overdue": "Overdue",
+    "done": "Done",
+    "guideLink": "Open the guide",
+    "empty": "No tasks in this stage.",
+    "note": "This list is general information and does not assess your personal situation. Always check deadlines and requirements with the competent authority. The dates are a suggestion based on your arrival date.",
+    "permits": {
+      "blueCard": "EU Blue Card",
+      "skilledWorker": "Skilled worker (§ 18a / § 18b)",
+      "opportunityCard": "Opportunity Card (Chancenkarte)",
+      "ausbildung": "Ausbildung (vocational training)",
+      "familyReunion": "Family reunion",
+      "other": "Another permit"
+    },
+    "goalLabels": {
+      "language": "German B1 certificate",
+      "permanentResidence": "Permanent residence",
+      "citizenship": "German citizenship"
+    },
+    "tasks": {
+      "documents": {
+        "title": "Prepare documents: Turkish records, apostille, sworn translation",
+        "note": "Multilingual extracts need no apostille; ask the authority about the translation."
+      },
+      "diploma": {
+        "title": "Check the recognition of your degree (anabin)",
+        "note": "If needed, apply for a ZAB assessment or professional recognition; it takes about 3 months."
+      },
+      "languageVisa": {
+        "title": "Prepare your German certificate for the visa",
+        "note": "Usually A1 for family reunion, B1 for Ausbildung; ask which certificate is accepted."
+      },
+      "visa": {
+        "title": "Apply for the visa",
+        "note": "Book the appointment early; check the document list with the German mission."
+      },
+      "blockedAccount": {
+        "title": "Open a blocked account (Sperrkonto)",
+        "note": "Proof of funds for the Opportunity Card; confirm the amount with the mission."
+      },
+      "housing": {
+        "title": "Find a flat and get the lease and the Wohnungsgeberbestätigung",
+        "note": "You need the landlord's confirmation for the Anmeldung."
+      },
+      "healthChoose": {
+        "title": "Choose your health insurer",
+        "note": "Apply for membership before you start work and tell your employer."
+      },
+      "anmeldung": {
+        "title": "Anmeldung: register your address",
+        "note": "Legal deadline: two weeks after moving in; do it in the first week."
+      },
+      "deutschlandticket": {
+        "title": "Transport: set up the Deutschlandticket",
+        "note": "Cancellable monthly; cancelling by the 10th ends it at month end."
+      },
+      "residencePermit": {
+        "title": "Book an appointment at the Ausländerbehörde for your residence permit",
+        "note": "If you entered with a visa, start before the visa expires."
+      },
+      "bank": {
+        "title": "Open a bank account",
+        "note": "You need the registration certificate; accepted documents differ by bank."
+      },
+      "schufa": {
+        "title": "Get a SCHUFA BonitätsAuskunft for flat applications",
+        "note": "The free data copy is not suitable for landlords."
+      },
+      "taxId": {
+        "title": "Check for the tax ID letter and give it to your employer",
+        "note": "It arrives by post after the Anmeldung."
+      },
+      "taxClass": {
+        "title": "Choose your tax class together (if married)",
+        "note": "III/V or IV with Faktorverfahren; ask the Finanzamt."
+      },
+      "rundfunkbeitrag": {
+        "title": "Register for the Rundfunkbeitrag",
+        "note": "One fee per dwelling; do not register twice with your flatmates."
+      },
+      "doctor": {
+        "title": "Find a Hausarzt and learn the difference between 112 and 116117",
+        "note": "Specialists may need a referral and an urgency code."
+      },
+      "familyInsurance": {
+        "title": "Apply for family insurance",
+        "note": "The family member must live in Germany; check the income limit."
+      },
+      "kindergeld": {
+        "title": "Apply for Kindergeld",
+        "note": "Tax ID and the type of residence permit matter; the Opportunity Card gives no entitlement."
+      },
+      "kita": {
+        "title": "Apply for a Kita voucher and a Kita place",
+        "note": "Rules differ by city; ask the Jugendamt."
+      },
+      "integrationCourse": {
+        "title": "Check your entitlement to an integration course",
+        "note": "The entitlement expires one year after the permit is issued; request the fee exemption before the course starts."
+      },
+      "bzst": {
+        "title": "Contact the BZSt if the tax ID has not arrived",
+        "note": "Three months after the Anmeldung, with ID and registration confirmation."
+      },
+      "driving": {
+        "title": "Start exchanging your Turkish driving licence",
+        "note": "6 months from taking residence; a test is required for Turkey."
+      },
+      "languageB1": {
+        "title": "Get a German B1 certificate",
+        "note": "Required for permanent residence and naturalisation."
+      },
+      "permBlueCard": {
+        "title": "Apply for permanent residence with the Blue Card",
+        "note": "21 months with B1, 27 months with A1; pension contributions and qualified work required."
+      },
+      "permSkilled": {
+        "title": "Apply for permanent residence (skilled worker)",
+        "note": "3 years and 36 months of pension contributions; sufficient German."
+      },
+      "permStandard": {
+        "title": "Apply for permanent residence (standard route)",
+        "note": "5 years and 60 months of pension contributions; check the requirements."
+      },
+      "citizenship": {
+        "title": "Apply for naturalisation (Einbürgerung)",
+        "note": "5 years, B1, the Einbürgerungstest and secured livelihood."
+      }
+    }
+  }
+}

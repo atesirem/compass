@@ -1,0 +1,16 @@
+services:
+  db:
+    image: postgres:16-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: guide
+      POSTGRES_PASSWORD: guide
+      POSTGRES_DB: germany_guide
+    ports:
+      # Local development only: reachable from this machine, not from the network
+      - "127.0.0.1:5440:5432"
+    volumes:
+      - db_data:/var/lib/postgresql/data
+
+volumes:
+  db_data:

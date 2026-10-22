@@ -1,0 +1,238 @@
+{
+  "Site": {
+    "name": "Pusula",
+    "tagline": "Finde deinen Weg in Deutschland: Ratgeber mit Quellen und Datum, Schritt für Schritt."
+  },
+  "Nav": {
+    "home": "Startseite",
+    "language": "Sprache",
+    "switchToLight": "Zum hellen Design wechseln",
+    "switchToDark": "Zum dunklen Design wechseln",
+    "install": "App installieren",
+    "guides": "Ratgeber",
+    "timeline": "Zeitleiste",
+    "glossary": "Glossar",
+    "search": "Suchen",
+    "menu": "Hauptmenü",
+    "roadmap": "Fahrplan"
+  },
+  "Home": {
+    "modulesTitle": "Module",
+    "guidesCount": "{count, plural, =0 {Noch keine Ratgeber} one {1 Ratgeber} other {# Ratgeber}}",
+    "badge": "Türkisch zuerst · Deutsch · English",
+    "heroTitle": "Finde deinen Weg in Deutschland.",
+    "heroText": "Vom Visum vor der Ankunft bis zur Bürokratie im ersten Jahr: Ratgeber mit Quellen und Datum zeigen dir den nächsten Schritt.",
+    "modulesKicker": "Wähle deine Route",
+    "ctaGuides": "Ratgeber ansehen",
+    "stagesTitle": "Auf deinem Weg",
+    "stagesText": "Zu den Ratgebern nach Zeitleiste.",
+    "ctaRoadmap": "Fahrplan erstellen"
+  },
+  "Module": {
+    "guides": "Ratgeber",
+    "empty": "Für dieses Modul gibt es noch keine veröffentlichten Ratgeber."
+  },
+  "Guide": {
+    "lastVerified": "Zuletzt geprüft: {date}",
+    "notVerified": "Dieser Inhalt wurde noch nicht mit offiziellen Quellen abgeglichen.",
+    "sources": "Offizielle Quellen",
+    "back": "Zurück zum Modul",
+    "translationMissing": "Dieser Ratgeber ist in der gewählten Sprache noch nicht verfügbar, die türkische Version wird angezeigt.",
+    "verified": "Zuletzt geprüft: {date}",
+    "stale": "Zuletzt geprüft: {date}. Die Angaben können veraltet sein, prüfe die offizielle Quelle."
+  },
+  "Disclaimer": "Die Informationen auf dieser Seite dienen nur der allgemeinen Orientierung und sind keine Rechts-, Finanz- oder medizinische Beratung. Regeln können sich ändern, bitte prüfe die offiziellen Quellen.",
+  "NotFound": {
+    "title": "Seite nicht gefunden",
+    "home": "Zur Startseite"
+  },
+  "Footer": {
+    "imprint": "Impressum",
+    "privacy": "Datenschutz",
+    "disclaimer": "Haftungsausschluss",
+    "legalNav": "Rechtliches"
+  },
+  "Legal": {
+    "updated": "Zuletzt aktualisiert: {date}",
+    "germanVersion": "Deutsche Fassung öffnen"
+  },
+  "Search": {
+    "title": "Suche",
+    "placeholder": "Wonach suchst du? z. B. Anmeldung",
+    "button": "Suchen",
+    "results": "{count, plural, =0 {Keine Treffer} one {1 Treffer} other {# Treffer}}",
+    "none": "Für diese Suche gibt es keinen veröffentlichten Ratgeber. Versuche ein anderes Wort.",
+    "hint": "Gib mindestens 2 Buchstaben ein.",
+    "inModule": "Modul"
+  },
+  "Timeline": {
+    "title": "Zeitleiste",
+    "intro": "Die Ratgeber in der Reihenfolge deines Weges in Deutschland: vor der Ankunft, erste Woche, erster Monat, erste 6 Monate und langfristig.",
+    "empty": "In dieser Phase gibt es noch keinen veröffentlichten Ratgeber.",
+    "other": "Sonstige",
+    "stages": {
+      "PRE_ARRIVAL": "Vor der Ankunft",
+      "FIRST_WEEK": "Erste Woche",
+      "FIRST_MONTH": "Erster Monat",
+      "FIRST_SIX_MONTHS": "Erste 6 Monate",
+      "LONG_TERM": "Langfristig"
+    }
+  },
+  "Glossary": {
+    "title": "Glossar",
+    "intro": "Amtliche Begriffe, die dir in Deutschland oft begegnen, mit Erklärung.",
+    "placeholder": "Begriff suchen",
+    "empty": "Keine Treffer.",
+    "count": "{count, plural, =0 {Keine Begriffe} one {1 Begriff} other {# Begriffe}}"
+  },
+  "Roadmap": {
+    "title": "Dein persönlicher Fahrplan",
+    "intro": "Beantworte ein paar Fragen und erhalte eine persönliche Aufgabenliste mit Terminen. Deine Angaben werden nur in diesem Browser gespeichert und nicht an einen Server gesendet.",
+    "formTitle": "Über dich",
+    "permit": "Mit welchem Aufenthaltstitel kommst du?",
+    "household": "Mit wem kommst du oder wirst du kommen?",
+    "spouse": "Mein Ehepartner / meine Ehepartnerin",
+    "children": "Mein Kind / meine Kinder",
+    "city": "Stadt (optional)",
+    "cityPlaceholder": "z. B. Berlin",
+    "arrival": "Dein Ankunftsdatum (geplant oder tatsächlich)",
+    "goals": "Deine Ziele",
+    "submit": "Fahrplan erstellen",
+    "required": "Wähle das Ankunftsdatum.",
+    "summary": "{permit} · Ankunft: {date}",
+    "progress": "{done} von {total} Aufgaben erledigt",
+    "edit": "Antworten ändern",
+    "print": "Drucken",
+    "reset": "Zurücksetzen",
+    "confirmReset": "Fahrplan und Abhakungen löschen?",
+    "due": "Spätestens: {date}",
+    "overdue": "Überfällig",
+    "done": "Erledigt",
+    "guideLink": "Zum Ratgeber",
+    "empty": "In dieser Phase gibt es keine Aufgaben.",
+    "note": "Diese Liste ist eine allgemeine Information und bewertet nicht deine persönliche Situation. Prüfe Fristen und Voraussetzungen immer bei der zuständigen Behörde. Die Termine sind ein Vorschlag, ausgehend vom Ankunftsdatum.",
+    "permits": {
+      "blueCard": "Blaue Karte EU",
+      "skilledWorker": "Fachkraft (§ 18a / § 18b)",
+      "opportunityCard": "Chancenkarte",
+      "ausbildung": "Ausbildung (Berufsausbildung)",
+      "familyReunion": "Familiennachzug",
+      "other": "Anderer Aufenthaltstitel"
+    },
+    "goalLabels": {
+      "language": "Deutschzertifikat B1",
+      "permanentResidence": "Niederlassungserlaubnis",
+      "citizenship": "Deutsche Staatsangehörigkeit"
+    },
+    "tasks": {
+      "documents": {
+        "title": "Unterlagen vorbereiten: türkische Urkunden, Apostille, beglaubigte Übersetzung",
+        "note": "Mehrsprachige Formular-Auszüge brauchen keine Apostille; frag bei der Behörde nach der Übersetzung."
+      },
+      "diploma": {
+        "title": "Gleichwertigkeit des Abschlusses prüfen (anabin)",
+        "note": "Bei Bedarf ZAB-Bewertung oder Berufsanerkennung beantragen; dauert etwa 3 Monate."
+      },
+      "languageVisa": {
+        "title": "Deutschzertifikat für das Visum vorbereiten",
+        "note": "Meist A1 beim Familiennachzug, B1 bei der Ausbildung; frag nach dem akzeptierten Zertifikat."
+      },
+      "visa": {
+        "title": "Visum beantragen",
+        "note": "Termin früh buchen; Unterlagenliste bei der Auslandsvertretung prüfen."
+      },
+      "blockedAccount": {
+        "title": "Sperrkonto eröffnen",
+        "note": "Finanzierungsnachweis für die Chancenkarte; Betrag bei der Auslandsvertretung prüfen."
+      },
+      "housing": {
+        "title": "Wohnung suchen, Mietvertrag und Wohnungsgeberbestätigung besorgen",
+        "note": "Für die Anmeldung brauchst du die Bestätigung des Vermieters."
+      },
+      "healthChoose": {
+        "title": "Krankenkasse wählen",
+        "note": "Vor Arbeitsbeginn Mitgliedschaft beantragen und den Arbeitgeber informieren."
+      },
+      "anmeldung": {
+        "title": "Anmeldung: Wohnsitz registrieren",
+        "note": "Gesetzliche Frist: zwei Wochen nach dem Einzug; erledige es in der ersten Woche."
+      },
+      "deutschlandticket": {
+        "title": "Mobilität: Deutschlandticket einrichten",
+        "note": "Monatlich kündbar; Kündigung bis zum 10. wirkt zum Monatsende."
+      },
+      "residencePermit": {
+        "title": "Termin bei der Ausländerbehörde für den Aufenthaltstitel",
+        "note": "Bei Einreise mit Visum den Titel vor Ablauf des Visums beantragen."
+      },
+      "bank": {
+        "title": "Bankkonto eröffnen",
+        "note": "Du brauchst die Anmeldebestätigung; akzeptierte Dokumente unterscheiden sich je nach Bank."
+      },
+      "schufa": {
+        "title": "SCHUFA-BonitätsAuskunft für die Wohnungsbewerbung",
+        "note": "Die kostenlose Datenkopie ist nicht für Vermieter geeignet."
+      },
+      "taxId": {
+        "title": "Steuer-ID-Brief prüfen und dem Arbeitgeber mitteilen",
+        "note": "Kommt nach der Anmeldung per Post."
+      },
+      "taxClass": {
+        "title": "Steuerklasse gemeinsam wählen (wenn verheiratet)",
+        "note": "III/V oder IV mit Faktorverfahren; frag das Finanzamt."
+      },
+      "rundfunkbeitrag": {
+        "title": "Beim Rundfunkbeitrag anmelden",
+        "note": "Ein Beitrag pro Wohnung; nicht doppelt mit den Mitbewohnern anmelden."
+      },
+      "doctor": {
+        "title": "Hausarzt finden, 112 und 116117 unterscheiden",
+        "note": "Für Fachärzte brauchst du ggf. Überweisung und Dringlichkeitscode."
+      },
+      "familyInsurance": {
+        "title": "Familienversicherung beantragen",
+        "note": "Der Familienangehörige muss in Deutschland leben; Einkommensgrenze prüfen."
+      },
+      "kindergeld": {
+        "title": "Kindergeld beantragen",
+        "note": "Steuer-ID und Art des Aufenthaltstitels sind wichtig; die Chancenkarte berechtigt nicht."
+      },
+      "kita": {
+        "title": "Kita-Gutschein und Kita-Platz beantragen",
+        "note": "Die Regeln unterscheiden sich je nach Stadt; frag das Jugendamt."
+      },
+      "integrationCourse": {
+        "title": "Anspruch auf Integrationskurs prüfen",
+        "note": "Der Anspruch erlischt ein Jahr nach Erteilung des Titels; Kostenbefreiung vor Kursbeginn beantragen."
+      },
+      "bzst": {
+        "title": "BZSt kontaktieren, wenn die Steuer-ID fehlt",
+        "note": "Drei Monate nach der Anmeldung, mit Ausweis und Meldebestätigung."
+      },
+      "driving": {
+        "title": "Umschreibung des türkischen Führerscheins beginnen",
+        "note": "6 Monate ab Wohnsitz; für die Türkei ist eine Prüfung nötig."
+      },
+      "languageB1": {
+        "title": "Deutschzertifikat B1 erwerben",
+        "note": "Erforderlich für Niederlassungserlaubnis und Einbürgerung."
+      },
+      "permBlueCard": {
+        "title": "Niederlassungserlaubnis mit Blauer Karte beantragen",
+        "note": "21 Monate mit B1, 27 Monate mit A1; Rentenbeiträge und qualifizierte Beschäftigung nötig."
+      },
+      "permSkilled": {
+        "title": "Niederlassungserlaubnis beantragen (Fachkraft)",
+        "note": "3 Jahre und 36 Monate Rentenbeiträge; ausreichende Deutschkenntnisse."
+      },
+      "permStandard": {
+        "title": "Niederlassungserlaubnis beantragen (Regelfall)",
+        "note": "5 Jahre und 60 Monate Rentenbeiträge; Voraussetzungen prüfen."
+      },
+      "citizenship": {
+        "title": "Einbürgerung beantragen",
+        "note": "5 Jahre, B1, Einbürgerungstest und gesicherter Lebensunterhalt."
+      }
+    }
+  }
+}
