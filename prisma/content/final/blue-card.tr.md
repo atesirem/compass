@@ -2,8 +2,8 @@
 slug: blue-card
 status: PUBLISHED
 verified: 2026-10-24
-title: Mavi Kart (Blaue Karte EU): şartlar ve başvuru
-summary: Üniversite diploması olanlar için çalışma ve oturum izni: maaş eşiği, şartlar, belgeler, ücretler ve adımlar.
+title: "Mavi Kart (Blaue Karte EU): şartlar ve başvuru"
+summary: "Üniversite diploması olanlar için çalışma ve oturum izni: maaş eşiği, şartlar, belgeler, ücretler ve adımlar."
 sources:
   - https://www.gesetze-im-internet.de/aufenthg_2004/__18g.html
   - https://www.gesetze-im-internet.de/aufenthg_2004/__18.html
