@@ -1,0 +1,11 @@
+[
+  { "key": "eatIssueFee", "value": "100 €", "note": "Fee for issuing a residence permit / Blue Card, § 45 Nr. 1 AufenthV (gesetze-im-internet.de/aufenthv/__45.html). Checked 2026-10-24." },
+  { "key": "eatExtensionFeeShort", "value": "96 €", "note": "Extension for a further stay of up to 3 months, § 45 Nr. 2 a AufenthV. Checked 2026-10-24." },
+  { "key": "eatExtensionFeeLong", "value": "93 €", "note": "Extension for a further stay of more than 3 months, § 45 Nr. 2 b AufenthV. Checked 2026-10-24." },
+  { "key": "eatReissueFee", "value": "67 €", "note": "Fee for re-issuing a document under § 78 Abs. 1 AufenthG, § 45c Abs. 1 AufenthV; no fee for chip failure not caused by the holder (§ 45c Abs. 2). Checked 2026-10-24." },
+  { "key": "fiktionsbescheinigungFee", "value": "13 €", "note": "Issue of a Fiktionsbescheinigung under § 81 Abs. 5 AufenthG, § 47 Abs. 1 Nr. 8 AufenthV (gesetze-im-internet.de/aufenthv/__47.html). Checked 2026-10-24." },
+  { "key": "eatBerlinWeeksAfterDelivery", "value": "4-5 Wochen", "note": "Berlin: eAT is usually handed out about 4-5 weeks after delivery by the Bundesdruckerei and internal check; service.berlin.de/dienstleistung/326231/. Berlin-specific; checked 2026-10-24." },
+  { "key": "insuranceVisaMinCoverage", "value": "30.000 €", "note": "Minimum coverage of travel medical insurance for a uniform (Schengen) short-stay visa, Art. 15 Regulation (EC) 810/2009 (eur-lex.europa.eu). Not the rule for national visas. Checked 2026-10-24." },
+  { "key": "anmeldungFineMax", "value": "1.000 €", "note": "Maximum fine for late/missing Anmeldung and for a missing/late Wohnungsgeberbestaetigung, § 54 Abs. 2, 3 BMG (gesetze-im-internet.de/bmg/__54.html). Checked 2026-10-24." },
+  { "key": "scheinanmeldungFineMax", "value": "50.000 €", "note": "Maximum fine for offering/providing an address for registration without actual residence, § 54 Abs. 1 BMG, § 19 Abs. 6 BMG. Checked 2026-10-24." }
+]
