@@ -37,9 +37,13 @@ export default async function HomePage({ params }: PageProps<"/[locale]">) {
           description: t("Site.tagline"),
         }}
       />
-      <section className="bg-brand text-on-brand">
-        <div className="mx-auto flex max-w-6xl flex-wrap items-center gap-14 px-4 sm:px-6 pb-20 pt-10">
-          <div className="min-w-0 flex-[3_1_480px]">
+      <section className="overflow-hidden bg-brand text-on-brand">
+        <div className="relative mx-auto max-w-6xl px-4 pb-20 pt-10 sm:px-6">
+          {/* Decorative compass: a faint background on small and medium screens, fully visible beside the text on large ones */}
+          <div className="pointer-events-none absolute inset-y-0 right-0 flex w-[460px] max-w-none translate-x-1/3 items-center opacity-20 lg:w-[420px] lg:translate-x-0 lg:opacity-100 xl:right-6">
+            <CompassIllustration />
+          </div>
+          <div className="relative z-10 min-w-0 lg:max-w-[calc(100%-440px)]">
             <p className="mb-5 inline-block rounded-full border border-brand-line px-4 py-2 text-sm font-medium text-brand-accent">
               {t("Home.badge")}
             </p>
@@ -62,9 +66,6 @@ export default async function HomePage({ params }: PageProps<"/[locale]">) {
                 {t("Home.ctaGuides")}
               </a>
             </div>
-          </div>
-          <div className="flex min-w-0 flex-[2_1_300px] justify-center">
-            <CompassIllustration />
           </div>
         </div>
       </section>
