@@ -3,7 +3,7 @@ import { expect, test, type Page } from "@playwright/test";
 import { E2E_ADMIN } from "./constants";
 import { login } from "./helpers";
 
-const PUBLIC_PAGES = ["/tr", "/de", "/en", "/tr/guides/anmeldung", "/tr/timeline", "/tr/glossary", "/tr/search?q=anmeld", "/tr/roadmap", "/tr/impressum", "/tr/datenschutz"];
+const PUBLIC_PAGES = ["/tr", "/de", "/en", "/tr/guides/anmeldung", "/tr/timeline", "/tr/glossary", "/tr/search?q=anmeld", "/tr/roadmap", "/tr/tools", "/tr/tools/lid", "/tr/tools/insurance-quiz", "/tr/tools/letters", "/tr/tools/pdf", "/tr/blog", "/tr/channels", "/tr/about", "/tr/contact", "/tr/links", "/tr/impressum", "/tr/datenschutz"];
 
 async function scan(page: Page) {
   const results = await new AxeBuilder({ page }).withTags(["wcag2a", "wcag2aa", "wcag21a", "wcag21aa"]).analyze();

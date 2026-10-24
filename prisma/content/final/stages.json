@@ -1,0 +1,7 @@
+{
+  "PRE_ARRIVAL": ["blue-card", "work-visa-18b", "opportunity-card", "ausbildung-basics", "ausbildung-visa-16a", "family-reunion-spouse", "turkish-documents-apostille", "sworn-translation", "diploma-recognition", "incoming-health-insurance", "temporary-housing-and-anmeldung"],
+  "FIRST_WEEK": ["anmeldung", "open-bank-account", "compare-banks", "bank-account-without-residence-card", "health-insurance-basics", "choose-krankenkasse", "deutschlandticket", "german-sim-card"],
+  "FIRST_MONTH": ["tax-id-and-tax-classes", "insurance-pyramid", "doctors-and-emergencies", "rundfunkbeitrag", "schufa", "housing-search", "kindergeld", "family-health-insurance", "family-in-turkey-overview"],
+  "FIRST_SIX_MONTHS": ["residence-permit-appointment", "driving-licence-exchange", "kita-gutschein", "integration-course", "b1-german-exams"],
+  "LONG_TERM": ["integration-course-refund", "life-in-germany-test", "tax-return-basics", "permanent-residence-overview", "blue-card-permanent-residence", "naturalization-requirements", "naturalization-process", "dual-citizenship-turkey"]
+}

@@ -1,0 +1,14 @@
+[
+  {"key":"kindergeldPerChild","value":"259 €","note":"Kindergeld per child and month in 2026, § 66 Abs. 1 EStG (gesetze-im-internet.de/estg/__66.html), checked 2026-10-24. 2027 amount not confirmed."},
+  {"key":"kitaMealShare","value":"23 €","note":"Berlin Kita: Verpflegungsanteil (lunch) per month, berlin.de/sen/jugend/familie-und-kinder/kindertagesbetreuung/kita-gutschein/, checked 2026-10-24. Breakfast not included."},
+  {"key":"kitaExtraMax","value":"100 €","note":"Berlin Kita: upper limit of voluntary extra payments (Zuzahlung) per child and month, same berlin.de page, checked 2026-10-24."},
+  {"key":"gkvReducedRate","value":"%14,0","note":"Reduced general contribution rate (members without Krankengeld entitlement), § 243 SGB V (gesetze-im-internet.de/sgb_5/__243.html), checked 2026-10-24."},
+  {"key":"gkvZusatzTk","value":"%2,69","note":"TK Zusatzbeitrag 2026, tk.de/techniker/versicherung/beitrag-zusatztarife/beitraege-beitragssaetze-2000710, checked 2026-10-24."},
+  {"key":"gkvZusatzBarmer","value":"%3,29","note":"Barmer Zusatzbeitrag 2026 (Satzung der Barmer, Stand 21.07.2026; total 17,89 %), barmer.de, checked 2026-10-24."},
+  {"key":"gkvZusatzDak","value":"%3,2","note":"DAK-Gesundheit Zusatzbeitrag since 1 Jan 2026 (total 17,8 %), dak.de, checked 2026-10-24."},
+  {"key":"gkvZusatzAokBayern","value":"%2,69","note":"AOK Bayern Zusatzbeitrag 2026, aok.de/pk/bayern/news/zusatzbeitrag-der-aok-bayern-bleibt-stabil/, checked 2026-10-24."},
+  {"key":"gkvZusatzAokPlus","value":"%3,1","note":"AOK PLUS (Sachsen, Thüringen) Zusatzbeitrag 2026, aok.de/pk/plus/news/beitragssatz-2026/, checked 2026-10-24."},
+  {"key":"gkvZusatzAokBw","value":"%2,99","note":"AOK Baden-Württemberg Zusatzbeitrag from 1 Jan 2026, aok.de/pk/bw/gkv-finanzierung/, checked 2026-10-24."},
+  {"key":"haftpflichtPremiumRange","value":"50-80 €","note":"Verbraucherzentrale: a cheap Privathaftpflicht policy with good terms costs about 50-80 EUR per year (verbraucherzentrale.de, Privathaftpflicht page), checked 2026-10-24."},
+  {"key":"haftpflichtMinCover","value":"10 Mio. €","note":"Verbraucherzentrale: recommended minimum cover sum for Privathaftpflicht (50 or 100 Mio. EUR better), checked 2026-10-24."}
+]

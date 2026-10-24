@@ -1,6 +1,7 @@
 import { cache } from "react";
 import { db } from "@/lib/db";
 import { routing } from "@/i18n/routing";
+import { visibleStatus } from "@/lib/preview";
 
 // Pick the translation for the locale, falling back to the default locale
 export function pickTranslation<T extends { locale: string }>(
@@ -18,7 +19,7 @@ export function getModules() {
     orderBy: { position: "asc" },
     include: {
       translations: true,
-      _count: { select: { guides: { where: { status: "PUBLISHED" } } } },
+      _count: { select: { guides: { where: { status: visibleStatus() } } } },
     },
   });
 }
@@ -29,7 +30,7 @@ export const getModuleWithGuides = cache((slug: string) => {
     include: {
       translations: true,
       guides: {
-        where: { status: "PUBLISHED" },
+        where: { status: visibleStatus() },
         orderBy: { position: "asc" },
         include: { translations: true },
       },
@@ -40,7 +41,7 @@ export const getModuleWithGuides = cache((slug: string) => {
 // Cached per request: generateMetadata and the page both need the same guide
 export const getGuide = cache((slug: string) => {
   return db.guide.findFirst({
-    where: { slug, status: "PUBLISHED" },
+    where: { slug, status: visibleStatus() },
     include: { translations: true, module: { include: { translations: true } } },
   });
 });
@@ -51,7 +52,7 @@ export type Stage = (typeof STAGES)[number];
 // Published guides grouped by timeline stage, in module and guide order
 export function getTimelineGuides() {
   return db.guide.findMany({
-    where: { status: "PUBLISHED" },
+    where: { status: visibleStatus() },
     orderBy: [{ module: { position: "asc" } }, { position: "asc" }],
     include: { translations: true, module: { include: { translations: true } } },
   });
@@ -66,7 +67,7 @@ export async function searchGuides(query: string) {
 
   const guides = await db.guide.findMany({
     where: {
-      status: "PUBLISHED",
+      status: visibleStatus(),
       translations: {
         some: {
           OR: [

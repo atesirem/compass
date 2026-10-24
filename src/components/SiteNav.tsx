@@ -8,6 +8,9 @@ export async function SiteNav({ locale }: { locale: string }) {
     { href: "/#modules", label: t("guides") },
     { href: "/roadmap", label: t("roadmap") },
     { href: "/timeline", label: t("timeline") },
+    { href: "/tools", label: t("tools") },
+    { href: "/blog", label: t("blog") },
+    { href: "/channels", label: t("channels") },
     { href: "/glossary", label: t("glossary") },
     { href: "/search", label: t("search") },
   ];

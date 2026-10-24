@@ -14,7 +14,10 @@
     "glossary": "Glossary",
     "search": "Search",
     "menu": "Main menu",
-    "roadmap": "Roadmap"
+    "roadmap": "Roadmap",
+    "tools": "Tools",
+    "blog": "Blog",
+    "channels": "Channels"
   },
   "Home": {
     "modulesTitle": "Modules",
@@ -50,7 +53,11 @@
     "imprint": "Impressum",
     "privacy": "Datenschutz",
     "disclaimer": "Disclaimer",
-    "legalNav": "Legal"
+    "legalNav": "Legal",
+    "about": "About",
+    "contact": "Contact",
+    "links": "Official links",
+    "moreNav": "Site information"
   },
   "Legal": {
     "updated": "Last updated: {date}",
@@ -233,6 +240,409 @@
         "title": "Apply for naturalisation (Einbürgerung)",
         "note": "5 years, B1, the Einbürgerungstest and secured livelihood."
       }
+    }
+  },
+  "Tools": {
+    "title": "Tools",
+    "intro": "Free helpers for everyday matters in Germany, no sign-up needed. What you enter stays in your browser and is not sent to a server.",
+    "open": "Open",
+    "external": "External site",
+    "items": {
+      "lid": {
+        "title": "Life in Germany test: official practice",
+        "text": "Links to the BAMF's official question catalogue and online test centre for the naturalisation and course test."
+      },
+      "holidays": {
+        "title": "Public holidays and bridge days",
+        "text": "See the public holidays in your state and find bridge days for long breaks with few days off."
+      },
+      "insurance": {
+        "title": "Which insurance do I need?",
+        "text": "A few questions show mandatory, strongly recommended and situation-dependent insurance."
+      },
+      "rental": {
+        "title": "Flat application letter generator",
+        "text": "Create a German cover letter for a rental application; copy or print it."
+      },
+      "letters": {
+        "title": "Templates for cancellations and objections",
+        "text": "Fill-in templates for Kündigung, Widerspruch, appointment requests and more."
+      },
+      "pdf": {
+        "title": "PDF merger",
+        "text": "Combine documents and photos into one PDF. The files never leave your device."
+      }
+    }
+  },
+  "Lid": {
+    "title": "Life in Germany test: official practice",
+    "intro": "The Leben in Deutschland test and the Einbürgerungstest draw on the same pool of questions. The best preparation is the BAMF's official question catalogue. We do not copy the questions here; we point you to the official source.",
+    "linksTitle": "Official links",
+    "links": {
+      "center": {
+        "title": "BAMF Online-Testcenter",
+        "text": "Practise the catalogue interactively; the right answer is shown after each question. Includes a sample test."
+      },
+      "catalog": {
+        "title": "Gesamtfragenkatalog (PDF)",
+        "text": "The official list of all questions: 300 nationwide questions plus state-specific ones."
+      },
+      "course": {
+        "title": "Integration course and final test (BAMF)",
+        "text": "Official information about the final examination and the certificate."
+      }
+    },
+    "factsTitle": "The test at a glance",
+    "facts": [
+      "33 questions: 30 for all of Germany, 3 for your state",
+      "Orientation course test: at least 15 correct",
+      "Einbürgerungstest: at least 17 correct",
+      "The catalogue has 310 questions (300 nationwide, 10 per state)"
+    ],
+    "tipsTitle": "How to study",
+    "tips": [
+      "Start with the sample test and see where you have gaps.",
+      "Study your own state's questions separately: 3 questions in the test are state questions.",
+      "Note the questions you got wrong and retry them after a few days.",
+      "For registration and fees see our guide."
+    ],
+    "guideLink": "Read the test guide",
+    "coursesLink": "Integration course guide",
+    "note": "This page is not an official service. The links lead to BAMF websites; always download the current question catalogue from the BAMF."
+  },
+  "Blog": {
+    "title": "Blog",
+    "intro": "Experiences from everyday life in Germany and explanatory articles. Experience posts are personal stories; rules and conditions can change.",
+    "all": "All",
+    "filterLabel": "Post type",
+    "kinds": {
+      "EXPERIENCE": "Experience",
+      "ARTICLE": "Article"
+    },
+    "empty": "No published posts yet.",
+    "by": "By {author}",
+    "published": "Published {date}",
+    "readMore": "Read",
+    "back": "All posts",
+    "tags": "Tags",
+    "tagFilter": "Tag: {tag}",
+    "clearTag": "Clear filter",
+    "otherLanguage": "This post is written in {language}.",
+    "experienceNote": "This post is the author's personal experience. Rules, fees and the conditions of banks or authorities change, and your situation may differ. It is general information, not legal, financial or insurance advice.",
+    "relatedGuide": "Related guide",
+    "relatedGuideText": "Read the guide with sources and date",
+    "lang": {
+      "tr": "Turkish",
+      "de": "German",
+      "en": "English",
+      "other": "Other"
+    },
+    "shareChannels": "See our channels"
+  },
+  "Channels": {
+    "title": "Channels",
+    "intro": "Useful social media accounts, podcasts and sites about life in Germany: our own channels and ones we recommend. Everything here is a link only; no third-party content is loaded on this site.",
+    "own": "Our channels",
+    "recommended": "Accounts and podcasts we recommend",
+    "empty": "No channels added yet.",
+    "visit": "Open on {platform}",
+    "ad": "Ad",
+    "contentIn": "Content language: {language}",
+    "topics": {
+      "language": "Learning German",
+      "food": "Food and drink",
+      "life": "Everyday life",
+      "bureaucracy": "Paperwork",
+      "work": "Work and career",
+      "podcast": "Podcast",
+      "other": "Other"
+    },
+    "topic": "Topic",
+    "allTopics": "All topics",
+    "disclaimer": "Recommended accounts and podcasts belong to independent people or organisations. Pusula is not responsible for their content; when you click a link you leave this site and their privacy rules apply. Links marked \"Ad\" are paid or affiliate links.",
+    "suggest": "Want to suggest an account or podcast?",
+    "suggestLink": "Write to us",
+    "languages": {
+      "tr": "Turkish",
+      "de": "German",
+      "en": "English",
+      "other": "Other"
+    }
+  },
+  "About": {
+    "title": "About",
+    "intro": "Pusula is a guide for newcomers and people living in Germany, Turkish first (also German and English). Its aim: explain official matters clearly, with sources and dates.",
+    "h1": "Who is it for?",
+    "p1": "For people planning a move to Germany, new arrivals, and anyone finding their way through paperwork in the first years. The information is general and is not a binding answer for your situation.",
+    "h2": "How do we write and check a guide?",
+    "verify": [
+      "We take information from official sources first: statute text, ministries, the BAMF, the Federal Employment Agency, the Federal Foreign Office, the responsible authority's own page.",
+      "Every guide shows its sources and the date of the last check.",
+      "A guide without sources and a verification date is not published. Facts we cannot verify are left out.",
+      "Figures that change often, such as fees, thresholds and deadlines, are managed in one place and updated in all guides at once.",
+      "A guide last checked more than 90 days ago shows a \"check again\" notice.",
+      "German and English translations are marked \"review pending\" until a native speaker has read them."
+    ],
+    "h3": "Experience posts",
+    "p3": "\"Experience\" posts on the blog are personal stories. They are not rules; dates and conditions change. They are kept apart from the guides.",
+    "h4": "Income and independence",
+    "p4": "The site does not earn money at the moment. If advertising or affiliate links are added later, they will be clearly marked \"Ad\" and will not influence the content or the order.",
+    "h5": "Privacy",
+    "p5": "The roadmap and theme setting are stored in your browser only. We use no analytics or advertising cookies. Details are in the privacy policy.",
+    "corrections": "Found a mistake?",
+    "correctionsText": "If you see wrong or outdated information, please write to us; we will correct it with a source.",
+    "contactLink": "Contact"
+  },
+  "Contact": {
+    "title": "Contact",
+    "intro": "You can reach us by email for error reports, suggestions, tips on channels or podcasts, and collaborations.",
+    "emailLabel": "Email",
+    "pending": "The contact email will be added before launch.",
+    "tipsTitle": "Notes for your message",
+    "tips": [
+      "When reporting an error, include the page address and the official source showing the right information.",
+      "Do not send personal documents, ID or residence numbers by email.",
+      "We do not give individual legal, tax or insurance advice; please contact a qualified person or authority for that."
+    ],
+    "privacy": "We use your email only to reply. Details are in the privacy policy."
+  },
+  "Links": {
+    "title": "Official links",
+    "intro": "Reliable official and public sources for matters in Germany. The links lead to external sites; we are not responsible for their content.",
+    "open": "Open site",
+    "groups": {
+      "general": "General information",
+      "residence": "Residence, visa, citizenship",
+      "work": "Work and training",
+      "money": "Taxes, banking, insurance",
+      "law": "Laws and rights"
+    },
+    "items": {
+      "makeit": "Make it in Germany: the German government's official portal for immigration and work",
+      "handbook": "Handbook Germany: multilingual information portal for newcomers",
+      "bamf": "BAMF: Federal Office for Migration and Refugees, integration courses and tests",
+      "aa": "Federal Foreign Office: visa information and missions abroad",
+      "ba": "Federal Employment Agency: job search, child benefit (Familienkasse), Ausbildung",
+      "anabin": "anabin: database for assessing foreign degrees and universities",
+      "zab": "KMK ZAB: credential evaluation",
+      "elster": "ELSTER: file your tax return online",
+      "bzst": "BZSt: Federal Central Tax Office (tax ID)",
+      "bafin": "BaFin: financial supervision, banks and consumer rights",
+      "vz": "Verbraucherzentrale: neutral information on insurance, contracts and renting",
+      "rb": "Rundfunkbeitrag: registration and exemption",
+      "bahn": "Deutsche Bahn: Deutschlandticket and tickets",
+      "gesetze": "Gesetze im Internet: official text of federal laws"
+    }
+  },
+  "Letters": {
+    "title": "Templates for cancellations and objections",
+    "intro": "Fill in the fields, then copy or print the German letter. What you enter stays in your browser and is sent nowhere.",
+    "rentalTitle": "Flat application letter generator",
+    "rentalIntro": "Create a German cover letter for a rental application. You can copy it or print it.",
+    "choose": "Type of letter",
+    "fillIn": "Fill in the details",
+    "preview": "Letter (German)",
+    "copy": "Copy",
+    "copied": "Copied",
+    "print": "Print",
+    "reset": "Clear",
+    "missing": "Missing required fields: {fields}",
+    "required": "required",
+    "disclaimer": "These templates are general examples, not legal advice. Have someone who reads German check important letters (cancellation, objection, flat application) before you send them.",
+    "pendingFill": "The letter appears here once the required fields are filled in.",
+    "fields": {
+      "senderName": "Full name",
+      "senderStreet": "Street and number",
+      "senderCity": "Postcode and city",
+      "senderEmail": "Email (optional)",
+      "senderPhone": "Phone (optional)",
+      "landlordName": "Landlord / agent name (optional)",
+      "flatAddress": "Address of the flat",
+      "persons": "People in the household",
+      "occupation": "Occupation (e.g. Software developer)",
+      "moveIn": "Preferred move-in date",
+      "about": "Short introduction (write in German)",
+      "docs": "Attached documents (e.g. Schufa, payslips)",
+      "recipientName": "Recipient (company / authority)",
+      "recipientStreet": "Recipient street (optional)",
+      "recipientCity": "Recipient postcode and city (optional)",
+      "contractRef": "Customer or contract number",
+      "endDate": "Requested end date (optional)",
+      "fileRef": "File number (Aktenzeichen)",
+      "noticeDate": "Date of the decision (Bescheid)",
+      "reason": "Reason / subject (write in German)"
+    },
+    "templates": {
+      "rentalApplication": "Flat application letter",
+      "cancelContract": "Cancel a contract (phone, internet, gym, energy…)",
+      "cancelLease": "Cancel a rental lease",
+      "objection": "Objection (Widerspruch) to a decision",
+      "appointment": "Appointment request to an authority"
+    },
+    "notes": {
+      "rentalApplication": "The letter is created in German. Send landlords only the documents they need; do not attach sensitive documents such as an ID copy or bank statements with the first application.",
+      "cancelContract": "Check the notice period and form in your contract. For proof, consider registered mail or documenting how you sent it.",
+      "cancelLease": "Terminating a residential lease must be in writing with your own signature (§ 568 BGB). The notice period for tenants is usually three months (§ 573c BGB); check your contract. An email is not enough.",
+      "objection": "The deadline to object is usually one month after you receive the decision; the exact deadline is in the notice's legal remedy instructions (Rechtsbehelfsbelehrung). Do not miss it. In important cases get advice or a lawyer.",
+      "appointment": "Also check whether the authority books appointments online; many immigration offices only do so online."
+    }
+  },
+  "Insurance": {
+    "title": "Which insurance do I need?",
+    "intro": "A few questions show which insurance is mandatory, strongly recommended or worth considering for you. Your answers stay in your browser.",
+    "q": {
+      "occupation": "Your situation",
+      "hasFamily": "Do a partner or children live in your household?",
+      "hasCar": "Do you have a car?",
+      "hasPet": "Do you have a pet?",
+      "ownsValuables": "Do you own things you could not easily replace (furniture, electronics)?",
+      "travelsAbroad": "Do you travel abroad (including to Turkey)?",
+      "relyOnIncome": "Does your household depend on your work income?"
+    },
+    "occ": {
+      "employed": "Employed",
+      "student": "Student",
+      "selfEmployed": "Self-employed",
+      "jobseeker": "Job seeker"
+    },
+    "pet": {
+      "none": "None",
+      "cat": "Cat / small animal",
+      "dog": "Dog"
+    },
+    "yes": "Yes",
+    "no": "No",
+    "result": "Result",
+    "priority": {
+      "mandatory": "Mandatory",
+      "recommended": "Strongly recommended",
+      "consider": "Depends on your situation"
+    },
+    "items": {
+      "health": {
+        "title": "Health insurance (Krankenversicherung)",
+        "text": "Mandatory for everyone living in Germany: statutory (GKV) or private. For employees the employer usually pays a share."
+      },
+      "care": {
+        "title": "Long-term care insurance (Pflegeversicherung)",
+        "text": "Tied to health insurance and mandatory; with statutory insurance it comes automatically."
+      },
+      "liability": {
+        "title": "Personal liability insurance (Haftpflicht)",
+        "text": "Not required by law, but considered the most important voluntary insurance because damage to others can be very expensive. Many landlords ask for it."
+      },
+      "carLiability": {
+        "title": "Car liability insurance (Kfz-Haftpflicht)",
+        "text": "Mandatory to use a vehicle on the road."
+      },
+      "dogLiability": {
+        "title": "Dog liability insurance",
+        "text": "Mandatory in some states and common in others; check your state's rule."
+      },
+      "disability": {
+        "title": "Occupational disability insurance (Berufsunfähigkeit)",
+        "text": "Protects your income if illness or an accident stops you working. Terms and premiums vary a lot; compare."
+      },
+      "household": {
+        "title": "Contents insurance (Hausrat)",
+        "text": "Covers damage to your belongings from fire, water or burglary. Worth considering depending on their value."
+      },
+      "legal": {
+        "title": "Legal expenses insurance (Rechtsschutz)",
+        "text": "Covers lawyer and court costs. There are usually waiting periods; you cannot take it out once a dispute has started."
+      },
+      "travelHealth": {
+        "title": "Travel health insurance abroad",
+        "text": "Statutory insurance may not cover everything abroad, especially outside the EU (including Turkey); travel health cover including repatriation is worth considering."
+      },
+      "accident": {
+        "title": "Accident insurance (Unfallversicherung)",
+        "text": "Can add protection, especially for children and leisure accidents; coverage is limited, so check whether you need it."
+      }
+    },
+    "guide": "Read the health insurance guide",
+    "disclaimer": "This result is general information, not insurance advice or a product recommendation. Compare terms and prices before you sign, and if needed get neutral information from a consumer centre (Verbraucherzentrale).",
+    "restart": "Start again"
+  },
+  "Pdf": {
+    "title": "PDF merger",
+    "intro": "Combine PDF files and photos (JPG, PNG) into one PDF. Processing happens in your browser; the files never leave your device.",
+    "add": "Add files",
+    "dropHint": "Choose PDF, JPG or PNG (up to {max} files, {size} MB in total)",
+    "empty": "No files added yet.",
+    "up": "Move up",
+    "down": "Move down",
+    "remove": "Remove",
+    "merge": "Merge and download",
+    "working": "Merging…",
+    "done": "PDF ready, the download has started.",
+    "tooMany": "You can add at most {max} files.",
+    "tooBig": "The total size cannot exceed {size} MB.",
+    "unsupported": "Unsupported file: {name}. Only PDF, JPG and PNG.",
+    "failed": "The file could not be read or is damaged: {name}. Encrypted PDFs are not supported.",
+    "fileName": "merged.pdf",
+    "privacy": "Files are not uploaded or stored. They are gone when you close the page.",
+    "tip": "For application documents that ask for a single PDF with a size limit, photograph documents flat and legible before merging."
+  },
+  "Holidays": {
+    "title": "Public holidays and bridge days",
+    "intro": "See the public holidays in the state where you work and find bridge days for long breaks with few days off.",
+    "state": "State (where you work)",
+    "year": "Year",
+    "holidays": "Public holidays",
+    "bridges": "Bridge days",
+    "bridgesIntro": "When a holiday falls on a Tuesday, Wednesday or Thursday, a few days of leave give you a long break.",
+    "noBridges": "There are no bridge-day suggestions for this state and year.",
+    "colDate": "Date",
+    "colHoliday": "Holiday",
+    "colNote": "Note",
+    "weekend": "falls on a weekend",
+    "local": "only in some municipalities",
+    "localNote": "Days marked \"only in some municipalities\" are not a holiday across the whole state; check your municipality. They are not counted in the bridge days.",
+    "leave": "Take leave: {days}",
+    "result": "{count} days off in a row ({from} – {to})",
+    "orLeave": "or",
+    "disclaimer": "The list is based on the states' holiday laws and the DGB overview, checked on {date}. The state where you work decides; your employment or collective agreement may differ. The holiday law of your state is binding. Dates are checked for 2026 and 2027 only.",
+    "guide": "Read the holidays guide",
+    "weekdayShort": "Day",
+    "states": {
+      "BW": "Baden-Württemberg",
+      "BY": "Bavaria",
+      "BE": "Berlin",
+      "BB": "Brandenburg",
+      "HB": "Bremen",
+      "HH": "Hamburg",
+      "HE": "Hessen",
+      "MV": "Mecklenburg-Vorpommern",
+      "NI": "Lower Saxony",
+      "NW": "North Rhine-Westphalia",
+      "RP": "Rhineland-Palatinate",
+      "SL": "Saarland",
+      "SN": "Saxony",
+      "ST": "Saxony-Anhalt",
+      "SH": "Schleswig-Holstein",
+      "TH": "Thuringia"
+    },
+    "names": {
+      "newYear": "New Year's Day",
+      "epiphany": "Epiphany",
+      "womensDay": "International Women's Day",
+      "goodFriday": "Good Friday",
+      "easterSunday": "Easter Sunday",
+      "easterMonday": "Easter Monday",
+      "labourDay": "Labour Day",
+      "ascension": "Ascension Day",
+      "whitSunday": "Whit Sunday",
+      "whitMonday": "Whit Monday",
+      "corpusChristi": "Corpus Christi",
+      "assumption": "Assumption Day",
+      "childrensDay": "World Children's Day",
+      "unityDay": "German Unity Day",
+      "reformationDay": "Reformation Day",
+      "allSaints": "All Saints' Day",
+      "repentanceDay": "Day of Repentance and Prayer",
+      "christmas": "Christmas Day",
+      "boxingDay": "Boxing Day / second Christmas Day"
     }
   }
 }

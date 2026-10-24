@@ -1,0 +1,16 @@
+[
+  {"key":"zabFeeFirst","value":"208 €","note":"ZAB Zeugnisbewertung (statement of comparability), https://zab.kmk.org/en/statement-comparability/fees, checked 2026-10-24; fee regulation adapted June 2024; older kmk.org page still shows 200 €."},
+  {"key":"zabFeeFurther","value":"104 €","note":"CORRECTED meaning: this is the fee for a REPLACEMENT (Ersatz) of a statement when the digital copy was lost, not a fee for 'each further application'. https://zab.kmk.org/en/statement-comparability/fees, checked 2026-10-24."},
+  {"key":"recognitionSubsidyMax","value":"600 €","note":"Anerkennungszuschuss: 100 to 600 EUR reimbursement of recognition or ZAB evaluation costs; apply BEFORE the recognition application. http://www.anerkennung-in-deutschland.de/html/de/pro/anerkennungszuschuss.php, checked 2026-10-24."},
+  {"key":"recognitionSubsidyMin","value":"100 €","note":"Lower end of the Anerkennungszuschuss range (100-600 EUR). Same source, checked 2026-10-24."},
+  {"key":"qualificationAnalysisSubsidyMax","value":"1.200 €","note":"Anerkennungszuschuss: qualification analysis up to 1,200 EUR. Same source, checked 2026-10-24."},
+  {"key":"qualificationMeasureSubsidyMax","value":"3.000 €","note":"Anerkennungszuschuss: qualification measures up to 3,000 EUR per person (needs partial equivalence notice or compensation requirement). Same source, checked 2026-10-24."},
+  {"key":"recognitionSubsidyIncomeLimitSingle","value":"32.000 €","note":"Anerkennungszuschuss gross annual income limit, single (after child allowances). Same source, checked 2026-10-24."},
+  {"key":"recognitionSubsidyIncomeLimitCouple","value":"50.000 €","note":"Anerkennungszuschuss gross annual income limit, couples/registered partners. Same source, checked 2026-10-24."},
+  {"key":"c24SmartFee","value":"0 €","note":"C24 Smart monthly fee, https://www.c24.de/girokonto, checked 2026-10-24."},
+  {"key":"c24PlusFee","value":"5,90 €","note":"C24 Plus monthly fee, https://www.c24.de/girokonto, checked 2026-10-24."},
+  {"key":"c24MaxFee","value":"9,90 €","note":"C24 Max monthly fee, https://www.c24.de/girokonto, checked 2026-10-24."},
+  {"key":"c24CashbackSmart","value":"%0,05","note":"C24 Smart cashback, https://www.c24.de/girokonto, checked 2026-10-24. Cashback depends on the model, not on spend type."},
+  {"key":"c24CashbackPlus","value":"%0,5 (ayda en fazla 12 €)","note":"C24 Plus cashback, https://www.c24.de/girokonto, checked 2026-10-24."},
+  {"key":"c24CashbackMax","value":"%1 (ayda en fazla 24 €)","note":"C24 Max cashback, https://www.c24.de/girokonto, checked 2026-10-24."}
+]

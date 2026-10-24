@@ -14,7 +14,10 @@
     "glossary": "Sözlük",
     "search": "Ara",
     "menu": "Ana menü",
-    "roadmap": "Yol haritası"
+    "roadmap": "Yol haritası",
+    "tools": "Araçlar",
+    "blog": "Blog",
+    "channels": "Kanallar"
   },
   "Home": {
     "modulesTitle": "Modüller",
@@ -50,7 +53,11 @@
     "imprint": "Impressum",
     "privacy": "Datenschutz",
     "disclaimer": "Sorumluluk reddi",
-    "legalNav": "Yasal bilgiler"
+    "legalNav": "Yasal bilgiler",
+    "about": "Hakkında",
+    "contact": "İletişim",
+    "links": "Resmi bağlantılar",
+    "moreNav": "Site bilgisi"
   },
   "Legal": {
     "updated": "Son güncelleme: {date}",
@@ -233,6 +240,409 @@
         "title": "Vatandaşlık başvurusu (Einbürgerung)",
         "note": "5 yıl, B1, Einbürgerungstest ve geçim şartı."
       }
+    }
+  },
+  "Tools": {
+    "title": "Araçlar",
+    "intro": "Almanya'daki günlük işler için ücretsiz, kayıt gerektirmeyen araçlar. Girdiğin bilgiler tarayıcında kalır, sunucuya gönderilmez.",
+    "open": "Aç",
+    "external": "Dış site",
+    "items": {
+      "lid": {
+        "title": "Leben in Deutschland testi: resmi alıştırma",
+        "text": "Vatandaşlık ve kurs sınavı için BAMF'ın resmi soru kataloğuna ve çevrimiçi test merkezine bağlantılar."
+      },
+      "holidays": {
+        "title": "Resmi tatiller ve köprü günleri",
+        "text": "Eyaletine göre resmi tatilleri gör, az izinle uzun tatil için köprü günlerini bul."
+      },
+      "insurance": {
+        "title": "Hangi sigortalara ihtiyacım var?",
+        "text": "Birkaç soruyla zorunlu, çok önerilen ve duruma göre gerekli sigortaları gör."
+      },
+      "rental": {
+        "title": "Ev başvuru mektubu üreteci",
+        "text": "Kira başvurusu için Almanca bir ön yazı hazırla; kopyala veya yazdır."
+      },
+      "letters": {
+        "title": "Dilekçe ve fesih şablonları",
+        "text": "Kündigung, Widerspruch, randevu talebi gibi Almanca mektuplar için doldurulabilir şablonlar."
+      },
+      "pdf": {
+        "title": "PDF birleştirici",
+        "text": "Belgeleri ve fotoğrafları tek PDF'te birleştir. Dosyalar cihazından çıkmaz."
+      }
+    }
+  },
+  "Lid": {
+    "title": "Leben in Deutschland testi: resmi alıştırma",
+    "intro": "Leben in Deutschland testi ve Einbürgerungstest aynı soru havuzundan hazırlanır. En güvenilir hazırlık, BAMF'ın resmi soru kataloğunu çalışmaktır. Soruları bu sitede kopyalamıyoruz; resmi kaynağa yönlendiriyoruz.",
+    "linksTitle": "Resmi bağlantılar",
+    "links": {
+      "center": {
+        "title": "BAMF Online-Testcenter",
+        "text": "Soru kataloğunu etkileşimli çöz; her sorudan sonra doğru cevap gösterilir. Örnek test bölümü de var."
+      },
+      "catalog": {
+        "title": "Gesamtfragenkatalog (PDF)",
+        "text": "Tüm soruların resmi listesi: 300 federal soru ve eyalete özel sorular."
+      },
+      "course": {
+        "title": "Integrationskurs ve sınav hakkında (BAMF)",
+        "text": "Kursun bitiş sınavı ve sertifika hakkında resmi bilgi."
+      }
+    },
+    "factsTitle": "Sınav hakkında hızlı bilgi",
+    "facts": [
+      "33 soru: 30'u tüm Almanya için, 3'ü yaşadığın eyalet için",
+      "Orientierungskurs testi: en az 15 doğru",
+      "Einbürgerungstest: en az 17 doğru",
+      "Soru kataloğu toplam 310 soru (300 federal, eyalet başına 10)"
+    ],
+    "tipsTitle": "Nasıl çalışmalı?",
+    "tips": [
+      "Önce örnek testi çöz ve eksik konularını gör.",
+      "Yaşadığın eyaletin sorularını ayrıca çalış: sınavda 3 soru eyalet sorusu.",
+      "Yanlış yaptığın soruları not al ve birkaç gün sonra tekrar çöz.",
+      "Sınav kaydı ve ücret için rehberimize bak."
+    ],
+    "guideLink": "Sınav rehberini oku",
+    "coursesLink": "Integrationskurs rehberi",
+    "note": "Bu sayfa resmi bir hizmet değildir. Bağlantılar BAMF'ın sitelerine gider; güncel soru kataloğunu her zaman BAMF'tan indir."
+  },
+  "Blog": {
+    "title": "Blog",
+    "intro": "Almanya'daki günlük hayattan deneyimler ve açıklayıcı yazılar. Deneyim yazıları kişisel hikâyelerdir; kurallar ve koşullar değişebilir.",
+    "all": "Hepsi",
+    "filterLabel": "Yazı türü",
+    "kinds": {
+      "EXPERIENCE": "Deneyim",
+      "ARTICLE": "Makale"
+    },
+    "empty": "Henüz yayınlanmış yazı yok.",
+    "by": "Yazar: {author}",
+    "published": "Yayın tarihi: {date}",
+    "readMore": "Oku",
+    "back": "Tüm yazılar",
+    "tags": "Etiketler",
+    "tagFilter": "Etiket: {tag}",
+    "clearTag": "Filtreyi kaldır",
+    "otherLanguage": "Bu yazı {language} dilinde yazılmıştır.",
+    "experienceNote": "Bu yazı yazarın kişisel deneyimidir. Kurallar, ücretler ve bankaların veya kurumların koşulları değişir; kendi durumun farklı olabilir. Genel bilgi sunar, hukuki, mali veya sigorta danışmanlığı değildir.",
+    "relatedGuide": "Konuyla ilgili rehber",
+    "relatedGuideText": "Kaynaklı ve tarihli rehberi oku",
+    "lang": {
+      "tr": "Türkçe",
+      "de": "Almanca",
+      "en": "İngilizce",
+      "other": "Diğer"
+    },
+    "shareChannels": "Kanallarımızı gör"
+  },
+  "Channels": {
+    "title": "Kanallar",
+    "intro": "Almanya yaşamı için faydalı sosyal medya hesapları, podcast'ler ve siteler: kendi kanallarımız ve önerdiklerimiz. Hepsi yalnızca bağlantıdır; bu sitede dış içerik yüklenmez.",
+    "own": "Bizim kanallarımız",
+    "recommended": "Önerdiğimiz hesaplar ve podcast'ler",
+    "empty": "Henüz kanal eklenmedi.",
+    "visit": "{platform} üzerinde aç",
+    "ad": "Reklam",
+    "contentIn": "İçerik dili: {language}",
+    "topics": {
+      "language": "Almanca öğrenme",
+      "food": "Yeme içme",
+      "life": "Günlük hayat",
+      "bureaucracy": "Resmi işler",
+      "work": "İş ve kariyer",
+      "podcast": "Podcast",
+      "other": "Diğer"
+    },
+    "topic": "Konu",
+    "allTopics": "Tüm konular",
+    "disclaimer": "Önerilen hesaplar ve podcast'ler bağımsız kişilere veya kuruluşlara aittir. Onların içeriğinden Pusula sorumlu değildir; bağlantıya tıkladığında onların sitesine ve gizlilik kurallarına geçersin. \"Reklam\" etiketli bağlantılar ücretli veya ortaklık bağlantısıdır.",
+    "suggest": "Bir hesap veya podcast önermek ister misin?",
+    "suggestLink": "Bize yaz",
+    "languages": {
+      "tr": "Türkçe",
+      "de": "Almanca",
+      "en": "İngilizce",
+      "other": "Diğer"
+    }
+  },
+  "About": {
+    "title": "Hakkında",
+    "intro": "Pusula, Almanya'ya yeni gelenler ve burada yaşayanlar için Türkçe öncelikli (Almanca ve İngilizce de) bir rehber sitesidir. Amacı: resmi işleri anlaşılır, kaynaklı ve tarihli anlatmak.",
+    "h1": "Kimler için?",
+    "p1": "Almanya'ya taşınmayı planlayanlar, yeni gelenler ve ilk yıllarında resmi işlerde yol arayanlar için. Bilgiler genel niteliktedir; senin durumun için bağlayıcı bir cevap değildir.",
+    "h2": "Bir rehberi nasıl hazırlıyoruz ve doğruluyoruz?",
+    "verify": [
+      "Bilgiyi önce resmi kaynaktan alırız: kanun metni, bakanlıklar, BAMF, Federal Çalışma Ajansı, Dışişleri, ilgili kurumun kendi sayfası.",
+      "Her rehberin altında kaynakları ve en son doğrulama tarihi yazar.",
+      "Kaynağı ve doğrulama tarihi olmayan rehber yayınlanmaz. Doğrulanamayan bir bilgi rehbere yazılmaz.",
+      "Ücret, eşik ve süre gibi sık değişen rakamlar tek bir yerden yönetilir; değiştiğinde tüm rehberlerde birlikte güncellenir.",
+      "Doğrulamasından 90 günden fazla geçen rehber \"yeniden kontrol edilmeli\" uyarısı gösterir.",
+      "Almanca ve İngilizce çeviriler bir anadili konuşan tarafından kontrol edilene kadar \"çeviri kontrol bekliyor\" olarak işaretlenir."
+    ],
+    "h3": "Deneyim yazıları",
+    "p3": "Blogdaki \"Deneyim\" yazıları kişisel hikâyelerdir. Kural gibi okunmamalıdır; tarih ve koşullar değişir. Rehberlerden ayrı tutulur.",
+    "h4": "Para kazanma ve bağımsızlık",
+    "p4": "Bu site şu an gelir elde etmiyor. İleride reklam veya ortaklık bağlantıları eklenirse bunlar açıkça \"Reklam\" olarak işaretlenir ve içeriğin doğruluğunu veya sıralamayı etkilemez.",
+    "h5": "Gizlilik",
+    "p5": "Yol haritası ve tema tercihi yalnızca tarayıcında saklanır. Analitik veya reklam çerezi kullanmıyoruz. Ayrıntılar Datenschutz sayfasında.",
+    "corrections": "Hata mı buldun?",
+    "correctionsText": "Yanlış veya eski bir bilgi görürsen lütfen bize yaz; kaynağıyla birlikte düzeltiriz.",
+    "contactLink": "İletişim"
+  },
+  "Contact": {
+    "title": "İletişim",
+    "intro": "Hata bildirimi, öneri, kanal veya podcast önerisi ve iş birliği için bize e-posta ile ulaşabilirsin.",
+    "emailLabel": "E-posta",
+    "pending": "İletişim e-postası yayına alınmadan önce eklenecek.",
+    "tipsTitle": "Yazarken işine yarayacak notlar",
+    "tips": [
+      "Bir hata bildiriyorsan sayfanın adresini ve doğru bilgiyi gösteren resmi kaynağı ekle.",
+      "Kişisel belgelerini, kimlik veya oturum numaranı e-postaya ekleme.",
+      "Bireysel hukuki, vergi veya sigorta danışmanlığı yapmıyoruz; bunun için yetkili bir kişiye veya kuruma başvur."
+    ],
+    "privacy": "E-postanı yalnızca cevaplamak için kullanırız. Ayrıntılar Datenschutz sayfasında."
+  },
+  "Links": {
+    "title": "Resmi bağlantılar",
+    "intro": "Almanya'daki işler için güvenilir resmi ve kamu kaynakları. Dış sitelere gider; içeriklerinden biz sorumlu değiliz.",
+    "open": "Siteyi aç",
+    "groups": {
+      "general": "Genel bilgi",
+      "residence": "Oturum, vize, vatandaşlık",
+      "work": "Çalışma ve eğitim",
+      "money": "Vergi, banka, sigorta",
+      "law": "Yasalar ve haklar"
+    },
+    "items": {
+      "makeit": "Make it in Germany: Almanya'ya göç ve çalışma için resmi portal (Federal Hükûmet)",
+      "handbook": "Handbook Germany: yeni gelenler için çok dilli bilgi portalı",
+      "bamf": "BAMF: Federal Göç ve Mülteci Dairesi, entegrasyon kursları ve sınavlar",
+      "aa": "Auswärtiges Amt: Dışişleri Bakanlığı, vize bilgisi ve temsilcilikler",
+      "ba": "Bundesagentur für Arbeit: iş arama, Kindergeld (Familienkasse), Ausbildung",
+      "anabin": "anabin: yabancı diplomaların ve üniversitelerin denklik veritabanı",
+      "zab": "KMK ZAB: diploma değerlendirme",
+      "elster": "ELSTER: çevrimiçi vergi beyannamesi",
+      "bzst": "BZSt: Federal Merkez Vergi Dairesi (Steuer-ID)",
+      "bafin": "BaFin: Federal Finans Denetimi, banka ve tüketici hakları",
+      "vz": "Verbraucherzentrale: tüketici merkezi, sigorta, sözleşme ve kira konularında tarafsız bilgi",
+      "rb": "Rundfunkbeitrag: yayın ücreti, kayıt ve muafiyet",
+      "bahn": "Deutsche Bahn: Deutschlandticket ve bilet bilgisi",
+      "gesetze": "Gesetze im Internet: Alman kanunlarının resmi metni"
+    }
+  },
+  "Letters": {
+    "title": "Dilekçe ve fesih şablonları",
+    "intro": "Alanları doldur, Almanca mektubu kopyala veya yazdır. Girdiğin bilgiler tarayıcında kalır; hiçbir yere gönderilmez.",
+    "rentalTitle": "Ev başvuru mektubu üreteci",
+    "rentalIntro": "Kira başvurusu için Almanca bir ön yazı hazırla. Kopyalayıp e-postaya yapıştırabilir veya yazdırabilirsin.",
+    "choose": "Mektup türü",
+    "fillIn": "Bilgileri doldur",
+    "preview": "Mektup (Almanca)",
+    "copy": "Kopyala",
+    "copied": "Kopyalandı",
+    "print": "Yazdır",
+    "reset": "Temizle",
+    "missing": "Eksik zorunlu alanlar: {fields}",
+    "required": "zorunlu",
+    "disclaimer": "Bu şablonlar genel örneklerdir; hukuki danışmanlık değildir. Önemli durumlarda (fesih, itiraz, ev başvurusu) mektubu göndermeden önce Almanca bilen birine okut.",
+    "pendingFill": "Zorunlu alanları doldurduğunda mektup burada görünür.",
+    "fields": {
+      "senderName": "Ad Soyad",
+      "senderStreet": "Sokak ve numara",
+      "senderCity": "Posta kodu ve şehir",
+      "senderEmail": "E-posta (isteğe bağlı)",
+      "senderPhone": "Telefon (isteğe bağlı)",
+      "landlordName": "Ev sahibi / emlakçı adı (isteğe bağlı)",
+      "flatAddress": "Dairenin adresi",
+      "persons": "Hanedeki kişi sayısı",
+      "occupation": "Mesleğin (ör. Yazılım Geliştirici)",
+      "moveIn": "İstediğin taşınma tarihi",
+      "about": "Kendini kısaca tanıt (Almanca yaz)",
+      "docs": "Eklediğin belgeler (ör. Schufa, Gehaltsnachweise)",
+      "recipientName": "Alıcı (kurum / şirket)",
+      "recipientStreet": "Alıcı sokak (isteğe bağlı)",
+      "recipientCity": "Alıcı posta kodu ve şehir (isteğe bağlı)",
+      "contractRef": "Müşteri veya sözleşme numarası",
+      "endDate": "İstediğin bitiş tarihi (isteğe bağlı)",
+      "fileRef": "Dosya numarası (Aktenzeichen)",
+      "noticeDate": "Bildirimin (Bescheid) tarihi",
+      "reason": "Gerekçe / konu (Almanca yaz)"
+    },
+    "templates": {
+      "rentalApplication": "Ev başvuru mektubu",
+      "cancelContract": "Sözleşme feshi (telefon, internet, spor salonu, enerji…)",
+      "cancelLease": "Kira sözleşmesi feshi",
+      "objection": "İtiraz (Widerspruch) dilekçesi",
+      "appointment": "Randevu talebi"
+    },
+    "notes": {
+      "rentalApplication": "Mektup Almanca üretilir. Ev sahibine yalnızca gerekli belgeleri gönder; kimlik fotokopisi veya hesap detayları gibi hassas belgeleri ilk başvuruda ekleme.",
+      "cancelContract": "Sözleşmendeki fesih süresini ve biçimini kontrol et. Kanıt için postayla, iadeli taahhütlü göndermeyi veya gönderimi belgelemeyi düşün.",
+      "cancelLease": "Konut kira sözleşmesinin feshi yazılı olmalı ve elle imzalanmalıdır (§ 568 BGB). Fesih süresi çoğu zaman 3 aydır (§ 573c BGB); kendi sözleşmene bak. E-posta yetmez.",
+      "objection": "İtiraz için çoğu zaman bildirimin elinize geçmesinden itibaren bir ay süre vardır; kesin süre bildirimin altında yazar (Rechtsbehelfsbelehrung). Süreyi kaçırma. Önemli durumlarda bir danışma merkezine veya avukata başvur.",
+      "appointment": "Kurumun çevrimiçi randevu sayfasını da kontrol et; çoğu yabancılar dairesi randevuyu yalnızca çevrimiçi veriyor."
+    }
+  },
+  "Insurance": {
+    "title": "Hangi sigortalara ihtiyacım var?",
+    "intro": "Birkaç soruyla durumuna göre zorunlu, çok önerilen ve düşünülebilecek sigorta türlerini gör. Cevapların tarayıcında kalır.",
+    "q": {
+      "occupation": "Çalışma durumun",
+      "hasFamily": "Evde eş veya çocuk var mı?",
+      "hasCar": "Araban var mı?",
+      "hasPet": "Evcil hayvanın var mı?",
+      "ownsValuables": "Kolayca yenileyemeyeceğin eşyaların (mobilya, elektronik) var mı?",
+      "travelsAbroad": "Yurt dışına (Türkiye dahil) seyahat ediyor musun?",
+      "relyOnIncome": "Hane geçimin senin çalışma gelirine mi bağlı?"
+    },
+    "occ": {
+      "employed": "Çalışan (Arbeitnehmer)",
+      "student": "Öğrenci",
+      "selfEmployed": "Serbest çalışan",
+      "jobseeker": "İş arayan"
+    },
+    "pet": {
+      "none": "Yok",
+      "cat": "Kedi / küçük hayvan",
+      "dog": "Köpek"
+    },
+    "yes": "Evet",
+    "no": "Hayır",
+    "result": "Sonuç",
+    "priority": {
+      "mandatory": "Zorunlu",
+      "recommended": "Çok önerilir",
+      "consider": "Duruma göre"
+    },
+    "items": {
+      "health": {
+        "title": "Sağlık sigortası (Krankenversicherung)",
+        "text": "Almanya'da yaşayan herkes için zorunludur: yasal (GKV) veya özel sigorta. Çalışanlarda genellikle işveren ile birlikte ödenir."
+      },
+      "care": {
+        "title": "Bakım sigortası (Pflegeversicherung)",
+        "text": "Sağlık sigortasına bağlıdır ve zorunludur; yasal sigortada otomatik gelir."
+      },
+      "liability": {
+        "title": "Özel sorumluluk sigortası (Haftpflicht)",
+        "text": "Yasal zorunluluk değildir ama başkasına verdiğin zararlar çok pahalı olabileceği için en önemli isteğe bağlı sigortalardan biri sayılır. Birçok ev sahibi de ister."
+      },
+      "carLiability": {
+        "title": "Araç trafik sigortası (Kfz-Haftpflicht)",
+        "text": "Aracı trafiğe çıkarmak için zorunludur."
+      },
+      "dogLiability": {
+        "title": "Köpek sorumluluk sigortası",
+        "text": "Bazı eyaletlerde zorunludur, diğerlerinde de yaygın olarak önerilir; yaşadığın eyaletin kuralına bak."
+      },
+      "disability": {
+        "title": "Çalışamama sigortası (Berufsunfähigkeit)",
+        "text": "Geliri senin çalışmana bağlıysa hastalık veya kaza nedeniyle çalışamamaya karşı finansal koruma sağlar. Şartlar ve primler çok değişir; karşılaştır."
+      },
+      "household": {
+        "title": "Ev eşyası sigortası (Hausrat)",
+        "text": "Yangın, su baskını, hırsızlık gibi durumlarda eşyaların zararını karşılar. Eşyalarının değerine göre düşün."
+      },
+      "legal": {
+        "title": "Hukuki koruma sigortası (Rechtsschutz)",
+        "text": "Dava ve avukat masraflarını karşılar. Genellikle bekleme süresi vardır; ihtiyaç doğduktan sonra yapılamaz."
+      },
+      "travelHealth": {
+        "title": "Yurt dışı seyahat sağlık sigortası",
+        "text": "Alman yasal sigortası yurt dışında (özellikle AB dışında, Türkiye dahil) her masrafı karşılamayabilir; geri dönüş taşımasını da içeren bir seyahat sağlık sigortası düşünülür."
+      },
+      "accident": {
+        "title": "Kaza sigortası (Unfallversicherung)",
+        "text": "Özellikle çocuklar ve iş dışı kazalar için bir ek koruma olabilir; kapsamı sınırlıdır, ihtiyaca göre bak."
+      }
+    },
+    "guide": "Sağlık sigortası rehberini oku",
+    "disclaimer": "Bu sonuç genel bir bilgilendirmedir; sigorta danışmanlığı veya ürün tavsiyesi değildir. Bir sigorta yaptırmadan önce şartları ve fiyatları karşılaştır ve gerekirse bir tüketici merkezinden (Verbraucherzentrale) tarafsız bilgi al.",
+    "restart": "Yeniden başla"
+  },
+  "Pdf": {
+    "title": "PDF birleştirici",
+    "intro": "PDF dosyalarını ve fotoğrafları (JPG, PNG) tek PDF'te birleştir. İşlem tarayıcında yapılır; dosyaların cihazından çıkmaz.",
+    "add": "Dosya ekle",
+    "dropHint": "PDF, JPG veya PNG seç (en fazla {max} dosya, toplam {size} MB)",
+    "empty": "Henüz dosya eklenmedi.",
+    "up": "Yukarı taşı",
+    "down": "Aşağı taşı",
+    "remove": "Kaldır",
+    "merge": "Birleştir ve indir",
+    "working": "Birleştiriliyor…",
+    "done": "PDF hazır, indirme başladı.",
+    "tooMany": "En fazla {max} dosya ekleyebilirsin.",
+    "tooBig": "Toplam boyut {size} MB'ı geçemez.",
+    "unsupported": "Desteklenmeyen dosya: {name}. Yalnızca PDF, JPG ve PNG.",
+    "failed": "Dosya okunamadı veya bozuk: {name}. Şifreli PDF'ler desteklenmez.",
+    "fileName": "birlestirilmis.pdf",
+    "privacy": "Dosyalar yüklenmez ve saklanmaz. Sayfayı kapattığında hepsi silinir.",
+    "tip": "Başvuru belgelerinde sık istenen tek PDF ve boyut sınırı için, birleştirmeden önce fotoğrafları düz ve okunaklı çek."
+  },
+  "Holidays": {
+    "title": "Resmi tatiller ve köprü günleri",
+    "intro": "Çalıştığın eyaletteki resmi tatilleri gör ve az izinle uzun tatil için köprü günlerini bul.",
+    "state": "Eyalet (iş yerinin bulunduğu)",
+    "year": "Yıl",
+    "holidays": "Resmi tatiller",
+    "bridges": "Köprü günleri",
+    "bridgesIntro": "Salı, Çarşamba veya Perşembe'ye denk gelen tatillerde birkaç gün izinle uzun tatil yapabilirsin.",
+    "noBridges": "Bu eyalet ve yıl için köprü günü önerisi yok.",
+    "colDate": "Tarih",
+    "colHoliday": "Tatil",
+    "colNote": "Not",
+    "weekend": "hafta sonuna denk geliyor",
+    "local": "yalnızca bazı belediyelerde",
+    "localNote": "\"Yalnızca bazı belediyelerde\" yazan günler eyaletin tamamında resmi tatil değildir; yaşadığın belediyeye bakmalısın. Köprü günü hesabına katılmaz.",
+    "leave": "İzin al: {days}",
+    "result": "{count} gün üst üste tatil ({from} – {to})",
+    "orLeave": "veya",
+    "disclaimer": "Liste eyaletlerin tatil kanunlarına ve DGB özetine dayanır, {date} tarihinde kontrol edildi. Çalışma yeri (iş yerinin eyaleti) belirleyicidir; iş veya toplu sözleşmen farklı düzenleyebilir. Kesin bilgi için eyaletin resmi tatil kanununa bak. Tarihler yalnızca 2026 ve 2027 için kontrol edilmiştir.",
+    "guide": "Resmi tatiller rehberini oku",
+    "weekdayShort": "Gün",
+    "states": {
+      "BW": "Baden-Württemberg",
+      "BY": "Bayern",
+      "BE": "Berlin",
+      "BB": "Brandenburg",
+      "HB": "Bremen",
+      "HH": "Hamburg",
+      "HE": "Hessen",
+      "MV": "Mecklenburg-Vorpommern",
+      "NI": "Niedersachsen",
+      "NW": "Nordrhein-Westfalen",
+      "RP": "Rheinland-Pfalz",
+      "SL": "Saarland",
+      "SN": "Sachsen",
+      "ST": "Sachsen-Anhalt",
+      "SH": "Schleswig-Holstein",
+      "TH": "Thüringen"
+    },
+    "names": {
+      "newYear": "Yılbaşı",
+      "epiphany": "Üç Kral Günü (Heilige Drei Könige)",
+      "womensDay": "Dünya Kadınlar Günü",
+      "goodFriday": "Karfreitag (Kutsal Cuma)",
+      "easterSunday": "Paskalya Pazarı",
+      "easterMonday": "Paskalya Pazartesisi",
+      "labourDay": "1 Mayıs (Tag der Arbeit)",
+      "ascension": "Christi Himmelfahrt (Göğe Yükseliş)",
+      "whitSunday": "Pfingstsonntag",
+      "whitMonday": "Pfingstmontag",
+      "corpusChristi": "Fronleichnam",
+      "assumption": "Mariä Himmelfahrt",
+      "childrensDay": "Dünya Çocuk Günü (Weltkindertag)",
+      "unityDay": "Alman Birliği Günü (3 Ekim)",
+      "reformationDay": "Reformationstag",
+      "allSaints": "Allerheiligen",
+      "repentanceDay": "Buß- und Bettag",
+      "christmas": "1. Noel günü",
+      "boxingDay": "2. Noel günü"
     }
   }
 }

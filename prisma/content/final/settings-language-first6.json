@@ -1,0 +1,16 @@
+[
+  {"key": "integrationCourseFeePerUnit", "value": "2,29 €", "note": "Participant contribution per teaching unit (45 min) for registrations from 1 Aug 2022 (2,20 € before). 50% of the BAMF reimbursement rate (§ 9 Abs. 1 IntV). Source: bamf.de TeilnahmeKosten page, checked 2026-10-24."},
+  {"key": "integrationCourseTotalGeneral", "value": "1.603 €", "note": "General integration course, 700 units x 2,29 €, payable in instalments per 100 units. Source: bamf.de TeilnahmeKosten page, checked 2026-10-24."},
+  {"key": "integrationCourseTotalSpecial", "value": "2.290 €", "note": "Example special course, 1.000 units x 2,29 €. Source: bamf.de TeilnahmeKosten page, checked 2026-10-24."},
+  {"key": "einbuergerungstestFee", "value": "25 €", "note": "Fee per attempt for the Einbürgerungstest; BAMF Einbürgerung page and service.berlin.de/dienstleistung/351180, checked 2026-10-24."},
+  {"key": "schufaBonitaetsAuskunftPrice", "value": "29,95 €", "note": "UNVERIFIED: seen only on comparison/advice portals (secondary). schufa.de pages gave no price on 2026-10-24. Not used in guide text; verify before use."},
+  {"key": "employeeAllowance", "value": "1.230 €", "note": "Arbeitnehmer-Pauschbetrag per year, § 9a Satz 1 Nr. 1 a EStG (gesetze-im-internet.de), checked 2026-10-24."},
+  {"key": "homeofficeDaily", "value": "6 €", "note": "Home office flat rate per day, § 4 Abs. 5 Satz 1 Nr. 6c EStG (gesetze-im-internet.de), checked 2026-10-24."},
+  {"key": "homeofficeMax", "value": "1.260 €", "note": "Maximum home office flat rate per year, § 4 Abs. 5 Satz 1 Nr. 6c EStG (gesetze-im-internet.de), checked 2026-10-24."},
+  {"key": "berlinLicenceFeeNoExam", "value": "37,50 €", "note": "Berlin LABO administrative fee for converting a non-EU licence without exam; service.berlin.de/dienstleistung/327537, checked 2026-10-24. Other cities differ."},
+  {"key": "berlinLicenceFeeWithExam", "value": "45,10 €", "note": "Berlin LABO administrative fee for converting a non-EU licence with exam (administrative fee only, exam fees extra); service.berlin.de/dienstleistung/327537, checked 2026-10-24."},
+  {"key": "rundfunkbeitragMonthly", "value": "18,36 €", "note": "Rundfunkbeitrag per Wohnung and month; rundfunkbeitrag.de, checked 2026-10-24."},
+  {"key": "rundfunkbeitragQuarterly", "value": "55,08 €", "note": "Rundfunkbeitrag for three months (3 x 18,36 €); rundfunkbeitrag.de, checked 2026-10-24."},
+  {"key": "deutschlandticketPrice", "value": "63 €", "note": "Monthly price until 31 Dec 2026; bahn.de/angebot/regio/deutschland-ticket, checked 2026-10-24."},
+  {"key": "deutschlandticketPrice2027", "value": "66,80 €", "note": "Monthly price from 1 Jan 2027 (price index); bahn.de/angebot/regio/deutschland-ticket, checked 2026-10-24."}
+]

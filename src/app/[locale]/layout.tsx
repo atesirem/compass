@@ -1,3 +1,4 @@
+import { previewDrafts } from "@/lib/preview";
 import type { Metadata, Viewport } from "next";
 import { hasLocale, NextIntlClientProvider } from "next-intl";
 import { getMessages, getTranslations } from "next-intl/server";
@@ -53,6 +54,11 @@ export default async function LocaleLayout({ children, params }: LayoutProps<"/[
       </head>
       <body className="flex min-h-dvh flex-col bg-page font-sans text-fg antialiased">
         <NextIntlClientProvider messages={{ Nav: messages.Nav }}>
+          {previewDrafts() && (
+            <p className="bg-amber-300 px-4 py-2 text-center text-sm font-semibold text-black print:hidden">
+              Önizleme modu: taslak rehberler ve yazılar da görünüyor. Bu sayfa henüz yayında değil.
+            </p>
+          )}
           <header className="bg-brand text-on-brand print:hidden">
             <div className="mx-auto flex w-full max-w-6xl items-center justify-between gap-3 px-4 py-4 sm:px-6 sm:py-5">
               <Link href="/" className="flex items-center gap-3 text-2xl font-bold tracking-tight">
@@ -77,6 +83,11 @@ export default async function LocaleLayout({ children, params }: LayoutProps<"/[
                   <Link href="/impressum" className="hover:underline">{t("Footer.imprint")}</Link>
                   <Link href="/datenschutz" className="hover:underline">{t("Footer.privacy")}</Link>
                   <Link href="/haftungsausschluss" className="hover:underline">{t("Footer.disclaimer")}</Link>
+                </nav>
+                <nav aria-label={t("Footer.moreNav")} className="flex flex-wrap gap-x-6 gap-y-2 text-sm font-semibold text-on-brand">
+                  <Link href="/about" className="hover:underline">{t("Footer.about")}</Link>
+                  <Link href="/links" className="hover:underline">{t("Footer.links")}</Link>
+                  <Link href="/contact" className="hover:underline">{t("Footer.contact")}</Link>
                 </nav>
               </div>
               <InstallButton />

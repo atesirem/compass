@@ -4,6 +4,7 @@ import { getMessages, getTranslations } from "next-intl/server";
 import { RoadmapApp } from "@/components/RoadmapApp";
 import { db } from "@/lib/db";
 import { alternatesFor, openGraphFor } from "@/lib/seo";
+import { visibleStatus } from "@/lib/preview";
 
 export const dynamic = "force-dynamic";
 
@@ -24,7 +25,7 @@ export default async function RoadmapPage({ params }: PageProps<"/[locale]/roadm
   const messages = await getMessages();
 
   // Links to guides appear only for guides that are published
-  const published = await db.guide.findMany({ where: { status: "PUBLISHED" }, select: { slug: true } });
+  const published = await db.guide.findMany({ where: { status: visibleStatus() }, select: { slug: true } });
 
   return (
     <div className="mx-auto max-w-3xl px-4 py-12 sm:px-6">

@@ -14,7 +14,10 @@
     "glossary": "Glossar",
     "search": "Suchen",
     "menu": "Hauptmenü",
-    "roadmap": "Fahrplan"
+    "roadmap": "Fahrplan",
+    "tools": "Werkzeuge",
+    "blog": "Blog",
+    "channels": "Kanäle"
   },
   "Home": {
     "modulesTitle": "Module",
@@ -50,7 +53,11 @@
     "imprint": "Impressum",
     "privacy": "Datenschutz",
     "disclaimer": "Haftungsausschluss",
-    "legalNav": "Rechtliches"
+    "legalNav": "Rechtliches",
+    "about": "Über uns",
+    "contact": "Kontakt",
+    "links": "Offizielle Links",
+    "moreNav": "Seiteninformationen"
   },
   "Legal": {
     "updated": "Zuletzt aktualisiert: {date}",
@@ -233,6 +240,409 @@
         "title": "Einbürgerung beantragen",
         "note": "5 Jahre, B1, Einbürgerungstest und gesicherter Lebensunterhalt."
       }
+    }
+  },
+  "Tools": {
+    "title": "Werkzeuge",
+    "intro": "Kostenlose Hilfen für den Alltag in Deutschland, ohne Anmeldung. Deine Eingaben bleiben in deinem Browser und werden nicht an einen Server gesendet.",
+    "open": "Öffnen",
+    "external": "Externe Seite",
+    "items": {
+      "lid": {
+        "title": "Test „Leben in Deutschland“: offizielles Üben",
+        "text": "Links zum offiziellen Fragenkatalog und Online-Testcenter des BAMF für Einbürgerungs- und Kurstest."
+      },
+      "holidays": {
+        "title": "Feiertage und Brückentage",
+        "text": "Gesetzliche Feiertage deines Bundeslandes und Brückentage für lange Auszeiten mit wenig Urlaub."
+      },
+      "insurance": {
+        "title": "Welche Versicherungen brauche ich?",
+        "text": "Mit ein paar Fragen siehst du Pflicht-, dringend empfohlene und situationsabhängige Versicherungen."
+      },
+      "rental": {
+        "title": "Anschreiben für die Wohnungsbewerbung",
+        "text": "Erstelle ein deutsches Anschreiben für deine Wohnungsbewerbung; kopieren oder drucken."
+      },
+      "letters": {
+        "title": "Vorlagen für Kündigung und Widerspruch",
+        "text": "Ausfüllbare Vorlagen für Kündigung, Widerspruch, Terminanfrage und mehr."
+      },
+      "pdf": {
+        "title": "PDF zusammenfügen",
+        "text": "Dokumente und Fotos zu einer PDF zusammenfügen. Die Dateien verlassen dein Gerät nicht."
+      }
+    }
+  },
+  "Lid": {
+    "title": "Test „Leben in Deutschland“: offizielles Üben",
+    "intro": "Der Test „Leben in Deutschland“ und der Einbürgerungstest stammen aus demselben Fragenpool. Am besten übst du mit dem offiziellen Fragenkatalog des BAMF. Wir kopieren die Fragen nicht, sondern verweisen auf die offizielle Quelle.",
+    "linksTitle": "Offizielle Links",
+    "links": {
+      "center": {
+        "title": "BAMF Online-Testcenter",
+        "text": "Den Fragenkatalog interaktiv üben; nach jeder Frage wird die richtige Antwort angezeigt. Mit Musterfragebogen."
+      },
+      "catalog": {
+        "title": "Gesamtfragenkatalog (PDF)",
+        "text": "Die offizielle Liste aller Fragen: 300 bundesweite und länderspezifische Fragen."
+      },
+      "course": {
+        "title": "Integrationskurs und Abschlusstest (BAMF)",
+        "text": "Offizielle Informationen zur Abschlussprüfung und zum Zertifikat."
+      }
+    },
+    "factsTitle": "Der Test in Kürze",
+    "facts": [
+      "33 Fragen: 30 für ganz Deutschland, 3 für dein Bundesland",
+      "Test im Orientierungskurs: mindestens 15 richtige Antworten",
+      "Einbürgerungstest: mindestens 17 richtige Antworten",
+      "Der Katalog umfasst 310 Fragen (300 bundesweit, 10 je Bundesland)"
+    ],
+    "tipsTitle": "So lernst du",
+    "tips": [
+      "Mach zuerst den Musterfragebogen und erkenne Lücken.",
+      "Lerne die Fragen deines Bundeslandes extra: 3 Fragen im Test sind Landesfragen.",
+      "Notiere falsch beantwortete Fragen und wiederhole sie nach einigen Tagen.",
+      "Zu Anmeldung und Gebühr findest du unseren Ratgeber."
+    ],
+    "guideLink": "Ratgeber zum Test lesen",
+    "coursesLink": "Ratgeber Integrationskurs",
+    "note": "Diese Seite ist kein offizieller Dienst. Die Links führen zu Seiten des BAMF; lade den aktuellen Fragenkatalog immer beim BAMF herunter."
+  },
+  "Blog": {
+    "title": "Blog",
+    "intro": "Erfahrungen aus dem Alltag in Deutschland und erklärende Artikel. Erfahrungsberichte sind persönliche Geschichten; Regeln und Bedingungen können sich ändern.",
+    "all": "Alle",
+    "filterLabel": "Art des Beitrags",
+    "kinds": {
+      "EXPERIENCE": "Erfahrung",
+      "ARTICLE": "Artikel"
+    },
+    "empty": "Noch keine veröffentlichten Beiträge.",
+    "by": "Von {author}",
+    "published": "Veröffentlicht am {date}",
+    "readMore": "Lesen",
+    "back": "Alle Beiträge",
+    "tags": "Schlagwörter",
+    "tagFilter": "Schlagwort: {tag}",
+    "clearTag": "Filter entfernen",
+    "otherLanguage": "Dieser Beitrag ist auf {language} geschrieben.",
+    "experienceNote": "Dieser Beitrag ist die persönliche Erfahrung der Autorin oder des Autors. Regeln, Gebühren und Bedingungen von Banken oder Behörden ändern sich; deine Situation kann anders sein. Es sind allgemeine Informationen, keine Rechts-, Finanz- oder Versicherungsberatung.",
+    "relatedGuide": "Passender Ratgeber",
+    "relatedGuideText": "Den Ratgeber mit Quellen und Datum lesen",
+    "lang": {
+      "tr": "Türkisch",
+      "de": "Deutsch",
+      "en": "Englisch",
+      "other": "Andere"
+    },
+    "shareChannels": "Unsere Kanäle ansehen"
+  },
+  "Channels": {
+    "title": "Kanäle",
+    "intro": "Nützliche Social-Media-Konten, Podcasts und Seiten rund um das Leben in Deutschland: unsere eigenen Kanäle und Empfehlungen. Alles sind nur Links; auf dieser Seite werden keine fremden Inhalte geladen.",
+    "own": "Unsere Kanäle",
+    "recommended": "Empfohlene Konten und Podcasts",
+    "empty": "Noch keine Kanäle eingetragen.",
+    "visit": "Auf {platform} öffnen",
+    "ad": "Anzeige",
+    "contentIn": "Sprache der Inhalte: {language}",
+    "topics": {
+      "language": "Deutsch lernen",
+      "food": "Essen und Trinken",
+      "life": "Alltag",
+      "bureaucracy": "Behörden",
+      "work": "Arbeit und Karriere",
+      "podcast": "Podcast",
+      "other": "Sonstiges"
+    },
+    "topic": "Thema",
+    "allTopics": "Alle Themen",
+    "disclaimer": "Empfohlene Konten und Podcasts gehören unabhängigen Personen oder Organisationen. Pusula ist für deren Inhalte nicht verantwortlich; mit dem Klick auf einen Link wechselst du zu deren Seite und Datenschutzregeln. Mit „Anzeige“ gekennzeichnete Links sind bezahlt oder Partnerlinks.",
+    "suggest": "Möchtest du ein Konto oder einen Podcast empfehlen?",
+    "suggestLink": "Schreib uns",
+    "languages": {
+      "tr": "Türkisch",
+      "de": "Deutsch",
+      "en": "Englisch",
+      "other": "Andere"
+    }
+  },
+  "About": {
+    "title": "Über uns",
+    "intro": "Pusula ist ein Ratgeber für Neuankömmlinge und Menschen in Deutschland, auf Türkisch zuerst (auch auf Deutsch und Englisch). Ziel: Behördenthemen verständlich, mit Quellen und Datum erklären.",
+    "h1": "Für wen?",
+    "p1": "Für alle, die einen Umzug nach Deutschland planen, neu angekommen sind oder in den ersten Jahren Orientierung bei Behördenthemen suchen. Die Informationen sind allgemein und keine verbindliche Auskunft zu deiner Situation.",
+    "h2": "Wie entstehen und werden Ratgeber geprüft?",
+    "verify": [
+      "Wir nehmen Informationen zuerst aus amtlichen Quellen: Gesetzestext, Ministerien, BAMF, Bundesagentur für Arbeit, Auswärtiges Amt, Seiten der zuständigen Stelle.",
+      "Unter jedem Ratgeber stehen die Quellen und das Datum der letzten Prüfung.",
+      "Ein Ratgeber ohne Quelle und Prüfdatum wird nicht veröffentlicht. Nicht überprüfbare Angaben werden nicht aufgenommen.",
+      "Häufig ändernde Zahlen wie Gebühren, Schwellenwerte und Fristen werden an einer Stelle gepflegt und in allen Ratgebern gleichzeitig aktualisiert.",
+      "Ist die letzte Prüfung älter als 90 Tage, erscheint der Hinweis „erneut prüfen“.",
+      "Deutsche und englische Übersetzungen gelten als „Prüfung ausstehend“, bis eine Muttersprachlerin oder ein Muttersprachler sie gelesen hat."
+    ],
+    "h3": "Erfahrungsberichte",
+    "p3": "„Erfahrung“-Beiträge im Blog sind persönliche Geschichten. Sie sind keine Regeln; Daten und Bedingungen ändern sich. Sie sind von den Ratgebern getrennt.",
+    "h4": "Einnahmen und Unabhängigkeit",
+    "p4": "Die Seite erzielt derzeit keine Einnahmen. Sollten später Werbung oder Partnerlinks hinzukommen, werden sie deutlich als „Anzeige“ gekennzeichnet und beeinflussen weder Inhalte noch Reihenfolge.",
+    "h5": "Datenschutz",
+    "p5": "Roadmap und Design-Einstellung werden nur in deinem Browser gespeichert. Wir nutzen keine Analyse- oder Werbe-Cookies. Details in der Datenschutzerklärung.",
+    "corrections": "Fehler gefunden?",
+    "correctionsText": "Wenn du eine falsche oder veraltete Angabe siehst, schreib uns bitte; wir korrigieren sie mit Quelle.",
+    "contactLink": "Kontakt"
+  },
+  "Contact": {
+    "title": "Kontakt",
+    "intro": "Für Fehlermeldungen, Vorschläge, Empfehlungen für Kanäle oder Podcasts und Kooperationen erreichst du uns per E-Mail.",
+    "emailLabel": "E-Mail",
+    "pending": "Die Kontakt-E-Mail wird vor der Veröffentlichung ergänzt.",
+    "tipsTitle": "Hinweise für deine Nachricht",
+    "tips": [
+      "Bei einer Fehlermeldung gib bitte die Adresse der Seite und die amtliche Quelle mit der richtigen Angabe an.",
+      "Sende keine persönlichen Dokumente, Ausweis- oder Aufenthaltsnummern per E-Mail.",
+      "Wir bieten keine individuelle Rechts-, Steuer- oder Versicherungsberatung an; wende dich dafür an eine befugte Person oder Stelle."
+    ],
+    "privacy": "Wir verwenden deine E-Mail nur, um zu antworten. Details in der Datenschutzerklärung."
+  },
+  "Links": {
+    "title": "Offizielle Links",
+    "intro": "Verlässliche amtliche und öffentliche Quellen für Themen in Deutschland. Die Links führen zu fremden Seiten; für deren Inhalte sind wir nicht verantwortlich.",
+    "open": "Seite öffnen",
+    "groups": {
+      "general": "Allgemeine Informationen",
+      "residence": "Aufenthalt, Visum, Einbürgerung",
+      "work": "Arbeit und Ausbildung",
+      "money": "Steuern, Bank, Versicherung",
+      "law": "Gesetze und Rechte"
+    },
+    "items": {
+      "makeit": "Make it in Germany: das offizielle Portal der Bundesregierung für Zuwanderung und Arbeit",
+      "handbook": "Handbook Germany: mehrsprachiges Informationsportal für Neuankömmlinge",
+      "bamf": "BAMF: Bundesamt für Migration und Flüchtlinge, Integrationskurse und Tests",
+      "aa": "Auswärtiges Amt: Visa-Informationen und Auslandsvertretungen",
+      "ba": "Bundesagentur für Arbeit: Jobsuche, Kindergeld (Familienkasse), Ausbildung",
+      "anabin": "anabin: Datenbank zur Bewertung ausländischer Abschlüsse und Hochschulen",
+      "zab": "KMK ZAB: Zeugnisbewertung",
+      "elster": "ELSTER: die Steuererklärung online",
+      "bzst": "BZSt: Bundeszentralamt für Steuern (Steuer-ID)",
+      "bafin": "BaFin: Finanzaufsicht, Banken und Verbraucherrechte",
+      "vz": "Verbraucherzentrale: neutrale Informationen zu Versicherung, Verträgen und Miete",
+      "rb": "Rundfunkbeitrag: Anmeldung und Befreiung",
+      "bahn": "Deutsche Bahn: Deutschlandticket und Fahrkarten",
+      "gesetze": "Gesetze im Internet: amtlicher Text der Bundesgesetze"
+    }
+  },
+  "Letters": {
+    "title": "Vorlagen für Kündigung und Widerspruch",
+    "intro": "Felder ausfüllen, deutschen Brief kopieren oder drucken. Deine Eingaben bleiben in deinem Browser und werden nirgends hingeschickt.",
+    "rentalTitle": "Anschreiben für die Wohnungsbewerbung",
+    "rentalIntro": "Erstelle ein deutsches Anschreiben für deine Wohnungsbewerbung. Du kannst es kopieren oder drucken.",
+    "choose": "Art des Briefes",
+    "fillIn": "Angaben ausfüllen",
+    "preview": "Brief",
+    "copy": "Kopieren",
+    "copied": "Kopiert",
+    "print": "Drucken",
+    "reset": "Zurücksetzen",
+    "missing": "Fehlende Pflichtfelder: {fields}",
+    "required": "Pflichtfeld",
+    "disclaimer": "Die Vorlagen sind allgemeine Beispiele und keine Rechtsberatung. Lass wichtige Briefe (Kündigung, Widerspruch, Wohnungsbewerbung) vor dem Absenden gegenlesen.",
+    "pendingFill": "Sobald die Pflichtfelder ausgefüllt sind, erscheint der Brief hier.",
+    "fields": {
+      "senderName": "Vor- und Nachname",
+      "senderStreet": "Straße und Hausnummer",
+      "senderCity": "PLZ und Ort",
+      "senderEmail": "E-Mail (optional)",
+      "senderPhone": "Telefon (optional)",
+      "landlordName": "Name der Vermieterin / des Vermieters (optional)",
+      "flatAddress": "Adresse der Wohnung",
+      "persons": "Personen im Haushalt",
+      "occupation": "Beruf (z. B. Softwareentwicklerin)",
+      "moveIn": "Gewünschter Einzugstermin",
+      "about": "Kurze Vorstellung (auf Deutsch)",
+      "docs": "Beigefügte Unterlagen (z. B. Schufa, Gehaltsnachweise)",
+      "recipientName": "Empfänger (Firma / Behörde)",
+      "recipientStreet": "Straße des Empfängers (optional)",
+      "recipientCity": "PLZ und Ort des Empfängers (optional)",
+      "contractRef": "Kunden- oder Vertragsnummer",
+      "endDate": "Gewünschtes Vertragsende (optional)",
+      "fileRef": "Aktenzeichen",
+      "noticeDate": "Datum des Bescheids",
+      "reason": "Begründung / Anlass (auf Deutsch)"
+    },
+    "templates": {
+      "rentalApplication": "Anschreiben für die Wohnungsbewerbung",
+      "cancelContract": "Kündigung eines Vertrags (Handy, Internet, Fitnessstudio, Strom…)",
+      "cancelLease": "Kündigung des Mietverhältnisses",
+      "objection": "Widerspruch gegen einen Bescheid",
+      "appointment": "Terminanfrage bei einer Behörde"
+    },
+    "notes": {
+      "rentalApplication": "Der Brief wird auf Deutsch erstellt. Sende Vermietern nur die nötigen Unterlagen; sensible Dokumente wie Ausweiskopie oder Kontoauszüge nicht schon bei der ersten Bewerbung.",
+      "cancelContract": "Prüfe Kündigungsfrist und Form in deinem Vertrag. Als Nachweis kann ein Einschreiben oder ein dokumentierter Versand sinnvoll sein.",
+      "cancelLease": "Die Kündigung der Mietwohnung muss schriftlich und eigenhändig unterschrieben sein (§ 568 BGB). Die Frist beträgt für Mieter meist drei Monate (§ 573c BGB); prüfe deinen Vertrag. Eine E-Mail genügt nicht.",
+      "objection": "Für den Widerspruch gilt meist eine Frist von einem Monat nach Bekanntgabe; die genaue Frist steht in der Rechtsbehelfsbelehrung des Bescheids. Versäume sie nicht. In wichtigen Fällen hol dir Beratung oder anwaltliche Hilfe.",
+      "appointment": "Prüfe auch, ob die Behörde Termine online vergibt; viele Ausländerbehörden vergeben Termine nur online."
+    }
+  },
+  "Insurance": {
+    "title": "Welche Versicherungen brauche ich?",
+    "intro": "Mit ein paar Fragen siehst du, welche Versicherungen für dich Pflicht, besonders empfehlenswert oder überlegenswert sind. Deine Antworten bleiben im Browser.",
+    "q": {
+      "occupation": "Deine Situation",
+      "hasFamily": "Leben Partner oder Kinder im Haushalt?",
+      "hasCar": "Hast du ein Auto?",
+      "hasPet": "Hast du ein Haustier?",
+      "ownsValuables": "Hast du Dinge, die du nicht leicht ersetzen könntest (Möbel, Elektronik)?",
+      "travelsAbroad": "Reist du ins Ausland (auch in die Türkei)?",
+      "relyOnIncome": "Hängt dein Haushalt von deinem Arbeitseinkommen ab?"
+    },
+    "occ": {
+      "employed": "Angestellt",
+      "student": "Studierend",
+      "selfEmployed": "Selbstständig",
+      "jobseeker": "Arbeitsuchend"
+    },
+    "pet": {
+      "none": "Keines",
+      "cat": "Katze / Kleintier",
+      "dog": "Hund"
+    },
+    "yes": "Ja",
+    "no": "Nein",
+    "result": "Ergebnis",
+    "priority": {
+      "mandatory": "Pflicht",
+      "recommended": "Dringend empfohlen",
+      "consider": "Je nach Situation"
+    },
+    "items": {
+      "health": {
+        "title": "Krankenversicherung",
+        "text": "Für alle in Deutschland Pflicht: gesetzliche (GKV) oder private Versicherung. Bei Angestellten zahlt der Arbeitgeber meist einen Teil."
+      },
+      "care": {
+        "title": "Pflegeversicherung",
+        "text": "Hängt an der Krankenversicherung und ist Pflicht; bei der gesetzlichen Kasse läuft sie automatisch mit."
+      },
+      "liability": {
+        "title": "Privathaftpflichtversicherung",
+        "text": "Keine Pflicht, gilt aber als wichtigste freiwillige Versicherung, weil Schäden bei anderen sehr teuer werden können. Viele Vermieter verlangen sie."
+      },
+      "carLiability": {
+        "title": "Kfz-Haftpflichtversicherung",
+        "text": "Pflicht, um ein Fahrzeug im Straßenverkehr zu nutzen."
+      },
+      "dogLiability": {
+        "title": "Hundehaftpflichtversicherung",
+        "text": "In einigen Bundesländern Pflicht, in anderen üblich; prüfe die Regel deines Bundeslandes."
+      },
+      "disability": {
+        "title": "Berufsunfähigkeitsversicherung",
+        "text": "Sichert dein Einkommen ab, wenn du durch Krankheit oder Unfall nicht mehr arbeiten kannst. Bedingungen und Beiträge unterscheiden sich stark; vergleiche."
+      },
+      "household": {
+        "title": "Hausratversicherung",
+        "text": "Ersetzt Schäden an deinem Hab und Gut durch Feuer, Leitungswasser oder Einbruch. Je nach Wert deiner Sachen sinnvoll."
+      },
+      "legal": {
+        "title": "Rechtsschutzversicherung",
+        "text": "Übernimmt Kosten für Anwalt und Gericht. Meist gibt es Wartezeiten; sie lässt sich nicht erst abschließen, wenn der Streit schon da ist."
+      },
+      "travelHealth": {
+        "title": "Auslandsreise-Krankenversicherung",
+        "text": "Die gesetzliche Krankenversicherung zahlt im Ausland, besonders außerhalb der EU (auch Türkei), nicht alles; eine Reisekrankenversicherung mit Rücktransport ist sinnvoll."
+      },
+      "accident": {
+        "title": "Unfallversicherung",
+        "text": "Kann besonders für Kinder und Freizeitunfälle zusätzlichen Schutz bieten; der Umfang ist begrenzt, prüfe den Bedarf."
+      }
+    },
+    "guide": "Ratgeber Krankenversicherung lesen",
+    "disclaimer": "Das Ergebnis ist eine allgemeine Information, keine Versicherungsberatung oder Produktempfehlung. Vergleiche vor Abschluss Bedingungen und Preise und hol dir bei Bedarf neutrale Informationen bei der Verbraucherzentrale.",
+    "restart": "Neu starten"
+  },
+  "Pdf": {
+    "title": "PDF zusammenfügen",
+    "intro": "Füge PDF-Dateien und Fotos (JPG, PNG) zu einer PDF zusammen. Die Verarbeitung erfolgt in deinem Browser; die Dateien verlassen dein Gerät nicht.",
+    "add": "Dateien hinzufügen",
+    "dropHint": "PDF, JPG oder PNG auswählen (höchstens {max} Dateien, insgesamt {size} MB)",
+    "empty": "Noch keine Dateien hinzugefügt.",
+    "up": "Nach oben",
+    "down": "Nach unten",
+    "remove": "Entfernen",
+    "merge": "Zusammenfügen und herunterladen",
+    "working": "Wird zusammengefügt…",
+    "done": "PDF fertig, der Download hat begonnen.",
+    "tooMany": "Du kannst höchstens {max} Dateien hinzufügen.",
+    "tooBig": "Die Gesamtgröße darf {size} MB nicht überschreiten.",
+    "unsupported": "Nicht unterstützte Datei: {name}. Nur PDF, JPG und PNG.",
+    "failed": "Datei konnte nicht gelesen werden oder ist beschädigt: {name}. Verschlüsselte PDFs werden nicht unterstützt.",
+    "fileName": "zusammengefuegt.pdf",
+    "privacy": "Die Dateien werden nicht hochgeladen oder gespeichert. Beim Schließen der Seite sind sie weg.",
+    "tip": "Für Bewerbungsunterlagen mit einer PDF und Größenlimit: fotografiere Dokumente vorher gerade und gut lesbar."
+  },
+  "Holidays": {
+    "title": "Feiertage und Brückentage",
+    "intro": "Sieh die gesetzlichen Feiertage deines Arbeitsbundeslandes und finde Brückentage für lange Auszeiten mit wenig Urlaub.",
+    "state": "Bundesland (des Arbeitsortes)",
+    "year": "Jahr",
+    "holidays": "Gesetzliche Feiertage",
+    "bridges": "Brückentage",
+    "bridgesIntro": "Fällt ein Feiertag auf Dienstag, Mittwoch oder Donnerstag, kannst du mit wenigen Urlaubstagen lange freimachen.",
+    "noBridges": "Für dieses Bundesland und Jahr gibt es keine Brückentag-Vorschläge.",
+    "colDate": "Datum",
+    "colHoliday": "Feiertag",
+    "colNote": "Hinweis",
+    "weekend": "fällt auf ein Wochenende",
+    "local": "nur in einigen Gemeinden",
+    "localNote": "Tage mit „nur in einigen Gemeinden“ sind nicht im ganzen Bundesland Feiertag; prüfe deine Gemeinde. Sie fließen nicht in die Brückentage ein.",
+    "leave": "Urlaub nehmen: {days}",
+    "result": "{count} Tage am Stück frei ({from} – {to})",
+    "orLeave": "oder",
+    "disclaimer": "Die Liste beruht auf den Feiertagsgesetzen der Länder und der Übersicht des DGB, geprüft am {date}. Maßgeblich ist das Bundesland des Arbeitsortes; Arbeits- oder Tarifvertrag können abweichen. Verbindlich ist das Feiertagsgesetz deines Bundeslandes. Die Termine sind nur für 2026 und 2027 geprüft.",
+    "guide": "Ratgeber zu Feiertagen lesen",
+    "weekdayShort": "Tag",
+    "states": {
+      "BW": "Baden-Württemberg",
+      "BY": "Bayern",
+      "BE": "Berlin",
+      "BB": "Brandenburg",
+      "HB": "Bremen",
+      "HH": "Hamburg",
+      "HE": "Hessen",
+      "MV": "Mecklenburg-Vorpommern",
+      "NI": "Niedersachsen",
+      "NW": "Nordrhein-Westfalen",
+      "RP": "Rheinland-Pfalz",
+      "SL": "Saarland",
+      "SN": "Sachsen",
+      "ST": "Sachsen-Anhalt",
+      "SH": "Schleswig-Holstein",
+      "TH": "Thüringen"
+    },
+    "names": {
+      "newYear": "Neujahr",
+      "epiphany": "Heilige Drei Könige",
+      "womensDay": "Internationaler Frauentag",
+      "goodFriday": "Karfreitag",
+      "easterSunday": "Ostersonntag",
+      "easterMonday": "Ostermontag",
+      "labourDay": "Tag der Arbeit",
+      "ascension": "Christi Himmelfahrt",
+      "whitSunday": "Pfingstsonntag",
+      "whitMonday": "Pfingstmontag",
+      "corpusChristi": "Fronleichnam",
+      "assumption": "Mariä Himmelfahrt",
+      "childrensDay": "Weltkindertag",
+      "unityDay": "Tag der Deutschen Einheit",
+      "reformationDay": "Reformationstag",
+      "allSaints": "Allerheiligen",
+      "repentanceDay": "Buß- und Bettag",
+      "christmas": "1. Weihnachtstag",
+      "boxingDay": "2. Weihnachtstag"
     }
   }
 }

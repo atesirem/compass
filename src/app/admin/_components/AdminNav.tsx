@@ -8,6 +8,8 @@ type NavItem = { href: string; label: string; icon: string; adminOnly?: boolean 
 const ITEMS: NavItem[] = [
   { href: "/admin", label: "Dashboard", icon: "M3 12l9-8 9 8M5 10v10h5v-6h4v6h5V10" },
   { href: "/admin/guides", label: "Guides", icon: "M6 3h9l4 4v14H6zM14 3v5h5M9 13h7M9 17h7" },
+  { href: "/admin/posts", label: "Blog posts", icon: "M4 5h16M4 10h16M4 15h10M4 20h7" },
+  { href: "/admin/channels", label: "Channels", icon: "M4 11a9 9 0 019 9M4 4a16 16 0 0116 16M5 19a1 1 0 100-2 1 1 0 000 2z" },
   { href: "/admin/modules", label: "Modules", icon: "M4 4h7v7H4zM13 4h7v7h-7zM4 13h7v7H4zM13 13h7v7h-7z" },
   { href: "/admin/glossary", label: "Glossary", icon: "M4 5h7a3 3 0 013 3v12a2 2 0 00-2-2H4zM20 5h-7" },
   { href: "/admin/writing-guide", label: "Writing guide", icon: "M12 20h9M16.5 3.5a2.1 2.1 0 013 3L7 19l-4 1 1-4z" },

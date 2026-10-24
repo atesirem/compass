@@ -1,0 +1,5 @@
+[
+  { "key": "everydayPfandSingleUse", "value": "0,25 €", "note": "Minimum deposit per single-use drink container incl. VAT, § 46 Abs. 1 VerpackDG (gesetze-im-internet.de/verpackdg/__46.html). Checked 2026-10-24." },
+  { "key": "everydayEmployeeLumpSum", "value": "1.230 €", "note": "Arbeitnehmer-Pauschbetrag, § 9a Satz 1 Nr. 1 a EStG (gesetze-im-internet.de/estg/__9a.html). Checked 2026-10-24; a 2027 increase is only reported in drafts." },
+  { "key": "everydayTaxFilingThreshold", "value": "410 €", "note": "Threshold for other income / Progressionsvorbehalt benefits and insurance refunds, § 46 Abs. 2 Nr. 1 and 3 EStG. Checked 2026-10-24." }
+]

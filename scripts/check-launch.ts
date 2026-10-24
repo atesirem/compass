@@ -12,6 +12,8 @@ async function main() {
   const left = placeholdersLeft(operator);
   add("Legal data (Impressum / privacy) complete", left.length === 0, left.length ? `missing: ${left.join(", ")}` : undefined);
 
+  add("PREVIEW_DRAFTS is not set", process.env.PREVIEW_DRAFTS !== "1", "remove it from the production environment");
+
   const secret = process.env.AUTH_SECRET ?? "";
   add("AUTH_SECRET is set, long and not the example value", secret.length >= 32 && !secret.includes("change-me"));
 
@@ -36,6 +38,9 @@ async function main() {
 
     const todos = await db.guideTranslation.count({ where: { bodyMarkdown: { contains: "TODO:" }, guide: { status: "PUBLISHED" } } });
     add("No TODO lines in published guides", todos === 0, todos ? `${todos} translation(s)` : undefined);
+
+    const postTodos = await db.post.count({ where: { status: "PUBLISHED", bodyMarkdown: { contains: "TODO:" } } });
+    add("No TODO lines in published blog posts", postTodos === 0, postTodos ? `${postTodos} post(s)` : undefined);
   } finally {
     await db.$disconnect();
   }

@@ -123,3 +123,59 @@ model LoginAttempt {
   @@index([email, createdAt])
   @@index([ip, createdAt])
 }
+
+enum PostKind {
+  // A personal story written by us or a guest ("Deneyim")
+  EXPERIENCE
+  // A longer explanatory article
+  ARTICLE
+}
+
+// Blog post, written in one language (the language of the post)
+model Post {
+  id           String      @id @default(cuid())
+  slug         String      @unique
+  locale       String
+  kind         PostKind    @default(EXPERIENCE)
+  status       GuideStatus @default(DRAFT)
+  title        String
+  summary      String
+  // Markdown body
+  bodyMarkdown String
+  authorName   String
+  tags         String[]
+  // Slug of a related guide, shown as a link under the post
+  guideSlug    String?
+  publishedAt  DateTime?
+  createdAt    DateTime    @default(now())
+  updatedAt    DateTime    @updatedAt
+
+  @@index([status, publishedAt])
+}
+
+enum ChannelKind {
+  // Our own channels
+  OWN
+  // Accounts, podcasts and sites by others that we recommend
+  RECOMMENDED
+}
+
+// Social media accounts, podcasts and sites we link to (links only, nothing is embedded)
+model Channel {
+  id          String      @id @default(cuid())
+  kind        ChannelKind @default(RECOMMENDED)
+  platform    String
+  name        String
+  url         String
+  description String
+  // Topic key, e.g. language, food, life (labels live in the messages)
+  topic       String
+  // Language of the channel's content: tr, de, en or other
+  language    String
+  // Paid or affiliated link: shown with an "Ad" label and rel="sponsored"
+  sponsored   Boolean     @default(false)
+  published   Boolean     @default(false)
+  position    Int         @default(0)
+  createdAt   DateTime    @default(now())
+  updatedAt   DateTime    @updatedAt
+}
