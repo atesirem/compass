@@ -22,11 +22,11 @@ test.describe("tools", () => {
   test("the letter tool builds a German letter once required fields are filled", async ({ page }) => {
     await page.goto("/tr/tools/letters");
     await expect(page.getByText("Eksik zorunlu alanlar")).toBeVisible();
-    await page.getByLabel("Ad Soyad", { exact: false }).first().fill("Ayşe Yılmaz");
-    await page.getByLabel("Sokak ve numara").fill("Musterstraße 1");
-    await page.getByLabel("Posta kodu ve şehir", { exact: true }).first().fill("10115 Berlin");
-    await page.getByLabel("Alıcı (kurum / şirket)").fill("Strom AG");
-    await page.getByLabel("Müşteri veya sözleşme numarası").fill("K-123");
+    await page.getByLabel(/^Ad Soyad/).fill("Ayşe Yılmaz");
+    await page.getByLabel(/^Sokak ve numara/).fill("Musterstraße 1");
+    await page.getByLabel(/^Posta kodu ve şehir \(zorunlu\)/).fill("10115 Berlin");
+    await page.getByLabel(/^Alıcı \(kurum/).fill("Strom AG");
+    await page.getByLabel(/^Müşteri veya sözleşme/).fill("K-123");
     const letter = page.locator("pre");
     await expect(letter).toContainText("Kündigung des Vertrags K-123");
     await expect(letter).toContainText("Mit freundlichen Grüßen");
@@ -106,6 +106,6 @@ test.describe("admin: posts and channels", () => {
     await expect(page.getByText("Add a channel")).toHaveCount(0);
 
     await page.goto("/admin/posts/new");
-    await expect(page.getByRole("option", { name: /published.*admins only/ })).toBeDisabled();
+    await expect(page.locator("option[value=PUBLISHED]")).toHaveAttribute("disabled", "");
   });
 });

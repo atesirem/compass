@@ -11,6 +11,7 @@ sources:
   - https://www.gesetze-im-internet.de/aufenthg_2004/__9a.html
   - https://www.gesetze-im-internet.de/aufenthv/__45.html
   - https://www.gesetze-im-internet.de/aufenthv/__46.html
+  - https://www.gesetze-im-internet.de/bbig_2005/__22.html
   - https://www.bundesanzeiger.de/pub/publication/7ZVbxqtVVGzHzr35dka/content/7ZVbxqtVVGzHzr35dka/BAnz%20AT%2029.08.2025%20B1.pdf?inline
   - https://www.arbeitsagentur.de/arbeiten-in-deutschland/ausbildung-in-deutschland
   - https://tuerkei.diplo.de/tr-de/service/05-visaeinreise/2703120-2703120
@@ -40,6 +41,8 @@ TODO: Geçim tutarının brüt çırak ücreti üzerinden pratikte nasıl hesapl
 - Kalış sırasında başka bir izin amacına geçiş kural olarak yapılmaz; istisnalar §§ 16a, 16b, 19c Abs. 2 ve kanuni hak durumlarıdır.
 - Bazı eski şehir sayfalarında geçen "6 ay ve çalışma yok" bilgisi güncel kanunla uyuşmuyor.
 
+TODO: Bazı meslekler (ör. bakım/Pflege) için B2 istenip istenmediğini ve izin süresinin eğitim süresine bağlı verilip verilmediğini ilgili Ausländerbehörde veya misyondan doğrula; § 16a'nın 1-4. fıkralarında B2 ve izin süresi geçmiyor.
+
 ## Adım adım
 1. Eğitim sözleşmesini imzala.
 2. Almanca sertifikanı ve diploma denkliğini hazırla.
@@ -55,6 +58,8 @@ TODO: Türkiye'deki misyonların bu iki kategori (§ 16a, § 17) için güncel b
 - İşlem süresi için resmi bir standart süre yok.
 
 ## Eğitim iptal olursa
+Eğitimin ilk 1-4 ayı deneme süresidir (§ 20 BBiG); bu sürede sözleşme ihbar süresi olmadan feshedilebilir (§ 22 Abs. 1 BBiG). Fesihin oturum iznine etkisi için aşağıdaki kurala bak.
+
 Oturum izni, **senin sorumluluğunda olmayan** nedenlerle (ör. işverenin iflası veya kapanması) geri alınır, iptal edilir veya sonradan kısaltılırsa sana başka bir eğitim yeri aramak için **en fazla 6 ay** süre tanınmalı (§ 16a Abs. 4). Bu hak her fesihte otomatik doğmaz.
 
 ## Sık yapılan hatalar

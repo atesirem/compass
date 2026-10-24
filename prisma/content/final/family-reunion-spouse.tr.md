@@ -10,6 +10,8 @@ sources:
   - https://www.gesetze-im-internet.de/aufenthg_2004/__32.html
   - https://www.gesetze-im-internet.de/aufenthg_2004/__2.html
   - https://www.gesetze-im-internet.de/aufenthv/__46.html
+  - https://www.gesetze-im-internet.de/aufenthg_2004/__4a.html
+  - https://www.gesetze-im-internet.de/bmg/__17.html
   - https://tuerkei.diplo.de/tr-de/service/05-visaeinreise/2728584-2728584
   - https://tuerkei.diplo.de/tr-de/service/05-visaeinreise/2720770-2720770
   - https://tuerkei.diplo.de/tr-de/service/05-visaeinreise/2703120-2703120
@@ -63,8 +65,9 @@ Başvuru kanalı kategoriye göre değişir:
 1. İstisna olup olmadığına bak; yoksa A1 sınavına hazırlan ve belgeni al.
 2. Evlilik, nüfus kaydı ve diğer belgeleri hazırla; Almanca çevirilerini yaptır.
 3. Başvuru kanalını belirle (Auslandsportal veya iDATA randevusu) ve vize başvurusunu yap.
-4. Vize onaylanınca gir, **Anmeldung** yap ve Ausländerbehörde'de oturum iznini al.
+4. Vize onaylanınca gir, eve taşındıktan sonra **2 hafta içinde Anmeldung** yap (§ 17 Abs. 1 BMG) ve Ausländerbehörde'de oturum iznini al.
 
+Çalışma: Genel kural olarak oturum izni sahibi, bir kanun yasaklamıyorsa çalışabilir (§ 4a Abs. 1 AufenthG).
 ## Zor durumlar
 Yaş şartı (18) bir **Härtefall** (özel zorluk) halinde esnetilebilir. Almanya'daki eşin oturum izni türüne göre diğer şartlardan da vazgeçilebilir (§ 30 Abs. 2). Bu durum her dosyada ayrıca değerlendirilir.
 

@@ -18,6 +18,8 @@ sources:
   - https://tuerkei.diplo.de/tr-de/service/05-visaeinreise/2720718-2720718
   - https://kairo.diplo.de/resource/blob/2139938/b6750074c9d6e9d818d16c5e8e2728e3/250205-merkblatt-blaue-karte-eu-data.pdf
   - https://www.gesetze-im-internet.de/aufenthg_2004/__30.html
+  - https://www.gesetze-im-internet.de/aufenthg_2004/__9b.html
+  - https://www.gesetze-im-internet.de/aufenthg_2004/__18c.html
 ---
 ## Kısaca
 **Blaue Karte EU** (AB Mavi Kart), üniversite diploması olan nitelikli çalışanlar için Almanya'da çalışma ve oturum izni. Maaşın belirli bir eşiği geçmesi ve diplomanın Almanya'da tanınması ya da bir Alman diplomasına denk sayılması gerekir. Aile bireyleri için kolaylıklar sunar ve süresiz oturuma kısa bir yol açar.
@@ -68,6 +70,7 @@ Başvuruya göre gereken belgeleri Auslandsportal sana gösterir; liste misyona 
 - İş değiştirirsen Ausländerbehörde'den izin almana gerek yok; ancak ilk 12 ayda daire değişikliği 30 gün askıya alıp şartlar artık yoksa reddedebilir (§ 18g Abs. 4).
 - Mavi Kart sahibinin eşi için **A1 Almanca belgesi** istenmez (§ 30 Abs. 1 S. 3 Nr. 5; bkz. aile birleşimi rehberi). Konut şartı da aranmaz (§ 29 Abs. 5).
 - Süresiz oturum için kısa yol vardır: **27 ay** (A1 Almanca ile) veya **21 ay** (B1 Almanca ile). Ayrıntı için Mavi Kart ile süresiz oturum rehberine bak.
+- **Başka AB ülkesinde Mavi Kart:** Bu kısa yol (§ 18c Abs. 2) Almanya'daki § 18g çalışmasına bakar; kanun metni başka ülkedeki süreleri saymıyor. Başka bir AB ülkesinde geçen Mavi Kart süresi ise **AB uzun dönem ikametgah izni** (Daueraufenthalt-EU, § 9a) için gereken 5 yıla sayılabilir; şartı: başvuruda en az 2 yıldır Almanya'da Mavi Kart sahibi olmak ve bu kartı almadan hemen önce başka bir üye ülkede Mavi Kart'a sahip olmak (§ 9b Abs. 2 S. 1 Nr. 1).
 
 ## Sonraki adım
 Almanya'ya vardıktan sonra ilk iş **Anmeldung** rehberine bak.

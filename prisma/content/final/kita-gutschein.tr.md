@@ -1,12 +1,13 @@
 ---
 slug: kita-gutschein
-status: REVIEW
+status: PUBLISHED
 verified: 2026-10-24
 title: "Kita (kreş/anaokulu) ve Kita-Gutschein: Berlin örneği"
 summary: Kita yeri aramak, Kita-Gutschein almak, ücretler ve Berlin'de başvuru adımları; diğer eyaletlerde farklıdır.
 sources:
   - https://www.berlin.de/sen/jugend/familie-und-kinder/kindertagesbetreuung/kita-gutschein/
   - https://service.berlin.de/dienstleistung/324873/standort/327383/
+  - https://www.gesetze-im-internet.de/sgb_8/__6.html
 ---
 ## Kısaca
 **Kita** (Kindertagesstätte) kreş ve anaokulunun genel adı. Kayıt kuralları **eyalete ve şehre göre değişir**. Bu rehber örnek olarak **Berlin**'i anlatır; başka bir şehirdeysen ilgili Jugendamt'a veya şehir portalına bak.
@@ -38,12 +39,14 @@ sources:
 Berlin'de Kita veya Kindertagespflege'de bakım **ücretsiz**. Yemek için **Verpflegungsanteil**: ayda **{{setting:kitaMealShare}}** (öğle yemeği; kahvaltı dahil değil). Ek hizmetler için gönüllü ödeme (Zuzahlung) çocuk başına ayda en çok **{{setting:kitaExtraMax}}**. Bürgergeld, Wohngeld veya Kinderzuschlag alıyorsan yemek payı Bildung-und-Teilhabe-Paketi üzerinden karşılanabilir.
 
 ## Oturum izni şartı
-TODO: Resmi sayfada belirli bir oturum izni türü şartı geçmiyor (yalnızca Berlin'de ikamet ve kayıt). Oturum izni türünün etkisini Jugendamt'a sor.
+Berlin'in resmi sayfası belirli bir oturum izni türü şartı koymuyor; yalnızca Berlin'de ikamet ve kayıt isteniyor. Federal kanun (§ 6 Abs. 2 SGB VIII), yabancıların bu kitaptaki hizmetlerden (Kita hakkı da SGB VIII kapsamındadır) yararlanması için Almanya'da **yasal olarak** (veya Duldung ile) yaşamayı arıyor. Yani izin türü değil, yasal ikamet ve Berlin'de kayıt belirleyicidir. Geçici belgeyle (ör. Fiktionsbescheinigung) bekleyenler için durum Jugendamt'tan sorulmalı.
 
 ## Dikkat etmen gerekenler
 - **Diğer eyaletlerde** sistem farklıdır: Kita-Navigator, doğrudan Kita'ya kayıt veya şehir portalı. Berlin'i genelleme.
 - Berlin'de Kita-Gutschein-Portal'ının **Eylül 2026'dan itibaren** hizmette olması bekleniyordu (berlin.de ifadesi: "voraussichtlich"). Başvuru yolunu güncel kontrol et.
-- Yer bulmak Gutschein'den ayrı bir iştir: erken ara.
+- Yer bulmak Gutschein'den ayrı bir iştir: erken ara. Berlin'deki Kita ve Kindertagespflege'yi **Kita-Navigator**'da (çevre araması dahil) görebilirsin.
+- **Kindertagespflege** (kayıtlı çocuk bakıcısı) da bir seçenek: nitelikli bir bakıcı tek başına en fazla 5, iki kişi birlikte en fazla 10 çocuğa bakabilir.
+- Gutschein süresi: kısmi (7 saate kadar) Gutschein'ler sona ermez; tam gün ve genişletilmiş tam gün Gutschein'ler onaylanan başlangıçtan itibaren **7 ay** içinde kullanılmalı.
 
 ## Sonraki adım
 **Kindergeld** rehberine bak.

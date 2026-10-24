@@ -6,7 +6,7 @@ test.describe("public site", () => {
     await page.goto("/");
     await expect(page).toHaveURL(/\/tr$/);
     await expect(page.getByRole("heading", { level: 1 })).toContainText("Almanya");
-    await expect(page.getByRole("navigation", { name: "Ana menü" }).getByRole("link")).toHaveCount(5);
+    await expect(page.getByRole("navigation", { name: "Ana menü" }).getByRole("link")).toHaveCount(8);
     await expect(page.locator("#modules li").first()).toBeVisible();
   });
 
@@ -67,7 +67,7 @@ test.describe("public site", () => {
   });
 
   test("draft guides and unknown pages return 404", async ({ request }) => {
-    expect((await request.get("/tr/guides/blue-card")).status()).toBe(404);
+    expect((await request.get("/tr/guides/kindergeld")).status()).toBe(404);
     expect((await request.get("/tr/modules/does-not-exist")).status()).toBe(404);
   });
 

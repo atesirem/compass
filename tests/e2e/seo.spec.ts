@@ -12,7 +12,7 @@ test.describe("seo", () => {
     const xml = await (await request.get("/sitemap.xml")).text();
     expect(xml).toContain("/tr/guides/anmeldung");
     expect(xml).toContain('hreflang="x-default"');
-    expect(xml).not.toContain("/guides/blue-card");
+    expect(xml).not.toContain("/guides/kindergeld");
     expect(xml).not.toContain("/admin");
   });
 

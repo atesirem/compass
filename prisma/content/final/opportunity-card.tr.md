@@ -9,6 +9,7 @@ sources:
   - https://www.gesetze-im-internet.de/aufenthg_2004/__20b.html
   - https://www.gesetze-im-internet.de/aufenthg_2004/__2.html
   - https://www.gesetze-im-internet.de/aufenthv/__46.html
+  - https://www.gesetze-im-internet.de/estg/__62.html
   - https://www.bundesanzeiger.de/pub/publication/7ZVbxqtVVGzHzr35dka/content/7ZVbxqtVVGzHzr35dka/BAnz%20AT%2029.08.2025%20B1.pdf?inline
   - https://kairo.diplo.de/resource/blob/2664804/ff16b296556688a8ec5effaf9c727a62/250122-deu-merkblatt-chancenkarte-data.pdf
   - https://tuerkei.diplo.de/tr-de/service/05-visaeinreise/2720718-2720718
@@ -64,7 +65,7 @@ Tam tanınmış nitelikli çalışanların (Yol 1) puan toplamasına gerek yok.
 
 ## Dikkat etmen gerekenler
 - Hükümet, Almanya'da henüz bulunmayanlar için yıllık Chancenkarte kontenjanı getirebilir (§ 20a Abs. 7).
-- Kindergeld hakkı oturum izninin türüne bağlıdır (§ 62 Abs. 2 EStG); Chancenkarte ile hak doğup doğmadığını Familienkasse'ye sor (bkz. Kindergeld rehberi).
+- **Kindergeld:** İlk Chancenkarte (§ 20a Abs. 5 S. 1) Kindergeld hakkı vermez (§ 62 Abs. 2 Nr. 2 Buchst. a EStG). Uzatma kartında (Folge-Chancenkarte, § 20a Abs. 5 S. 2) hak ancak çalışıyorsan, ebeveyn iznindeysen (Elternzeit) veya SGB III kapsamında süreli ödenek alıyorsan doğar (Buchst. b); ayrıntı için Kindergeld rehberine bak.
 - Başvuru kanalı ve belge listesi misyona göre değişebilir; Auslandsportal başvuruna göre gereken belgeleri gösterir.
 
 ## Sonraki adım

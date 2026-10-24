@@ -1,6 +1,6 @@
 ---
 slug: work-visa-18b
-status: PUBLISHED
+status: REVIEW
 verified: 2026-10-24
 title: "Nitelikli çalışan vizesi (§ 18a/§ 18b): Mavi Kart dışındaki yol"
 summary: Maaşın Mavi Kart eşiğinin altında kalıyorsa nitelikli çalışan oturum izni, hızlandırılmış süreç, ücretler ve süresiz oturuma yolu.
@@ -27,6 +27,7 @@ Mavi Kart şartlarını (maaş eşiği) sağlamıyorsan ama mesleki nitelikte bi
 ## Kimler için geçerli?
 - Niteliğine uygun, somut bir iş teklifin veya sözleşmen olmalı (§ 18 Abs. 2).
 - Eğitimin Almanya'da tanınmalı veya denk sayılmalı (diploma için anabin; mesleki eğitim için ilgili tanıma kurumu).
+- **Alan serbestliği:** § 18a (mesleki eğitimliler) ve § 18b (üniversite mezunları) izni "her nitelikli iş" (*jede qualifizierte Beschäftigung*) için verilir; kanun metni işi diplomanın alanıyla sınırlamıyor. Yani iş nitelik gerektiren bir pozisyon olmalı, ama diplomanla birebir aynı alanda olması şart değil.
 - Meslek düzenlenmiş bir meslekse (ör. doktor, hemşire, öğretmen) gerekli meslek izni verilmiş veya verileceği belgelenmiş olmalı.
 - Federal Çalışma Ajansı (**Bundesagentur für Arbeit**, BA) onayı gereken durumlarda alınır.
 - **45 yaş üstü:** İlk §§ 18a/18b iznini alıyorsan ve yeterli yaşlılık güvencen yoksa brüt maaşın 2026 için en az **{{setting:salary45Plus}}** olması gerekir (prim tavanının %55'i; kanunda kamu yararı gerekçesiyle esneklik tanınabiliyor). Bu kural §§ 18a/18b içindir, Mavi Kart için değil.
@@ -46,6 +47,8 @@ Mavi Kart şartlarını (maaş eşiği) sağlamıyorsan ama mesleki nitelikte bi
 
 ## Gerekli belgeler
 Başvuruya göre gereken belgeleri Auslandsportal sana gösterir; liste misyona göre değişebilir. Kanunun istediği temel noktalar (§ 18 Abs. 2): somut iş teklifi, gerekiyorsa BA onayı, düzenlenmiş meslekte meslek izni, niteliğinin tanınması veya denkliği (diploma için anabin veya ZAB değerlendirmesi, mesleki eğitim için tanıma belgesi). Bunlar belge listesinin çekirdeğidir; ayrıca pasaport, başvuru formu, fotoğraf ve sözleşme çıktıları istenir.
+
+TODO: Türkiye'deki misyonların (Ankara, İstanbul, İzmir) § 18a/§ 18b için güncel belge kontrol listesini (işveren formu, sağlık sigortası, düzenlenmiş meslek belgeleri) misyonların kendi Merkblatt'larından doğrula; AA'nın Türkiye sayfası listeyi içermiyor, yalnızca Merkblatt'lara bağlantı veriyor.
 
 ## Maliyet ve süre
 - **Vize:** {{setting:nationalVisaFee}} (§ 46 Abs. 2 AufenthV).

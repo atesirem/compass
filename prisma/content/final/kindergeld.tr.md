@@ -12,6 +12,8 @@ sources:
   - https://www.gesetze-im-internet.de/estg/__32.html
   - https://www.arbeitsagentur.de/familie-und-kinder/infos-rund-um-kindergeld/kindergeld-anspruch-hoehe-dauer
   - https://www.arbeitsagentur.de/familie-und-kinder/eservices-fuer-familien
+  - https://www.arbeitsagentur.de/familie-und-kinder/auszahlungstermine
+  - https://www.arbeitsagentur.de/familie-und-kinder/infos-rund-um-kindergeld/kindergeld-ausland
 ---
 ## Kısaca
 **Kindergeld**, çocuğu olan ebeveynlere her ay ödenen devlet yardımı. 2026'da çocuk başına ayda **{{setting:kindergeldPerChild}}** (§ 66 EStG). Başvuru **Familienkasse**'ye (Federal Çalışma Ajansı'na bağlı) yapılır.
@@ -22,7 +24,7 @@ AB dışından gelenlerde hak, **oturum izninin türüne** bağlıdır (§ 62 Ab
 - **Hak vermeyen izinler:** Kanun, eğitim, au pair, mevsimlik çalışma, Avrupa gönüllü hizmeti ve tanınma/iş arama amaçlı bazı izinleri (§§ 16e, 19c Abs. 1, 19e, 20a Abs. 5 Satz 1 AufenthG) hak vermeyenler arasında sayar. Öğrenim ve benzeri izinlerde (§§ 16b, 16d, 20 AufenthG) hak, ancak çalışıyorsan veya ek koşulları taşıyorsan doğar; durumun için Familienkasse'ye sor.
 - Hem senin hem çocuğun **vergi kimlik numarası (Steuer-ID)** olmalı.
 
-TODO: Chancenkarte'nin Kindergeld hakkı verip vermediğini Familienkasse veya Arbeitsagentur'dan doğrula (§ 62 metninde Chancenkarte açıkça geçmiyor).
+**Chancenkarte:** İlk Chancenkarte (§ 20a Abs. 5 S. 1 AufenthG) Kindergeld hakkı vermez. Uzatma kartında (§ 20a Abs. 5 S. 2) hak ancak çalışıyorsan, ebeveyn iznindeysen (Elternzeit) veya SGB III kapsamında süreli ödenek alıyorsan doğar; öğrenci izni (§ 16b) için de aynı koşul geçerli (§ 62 Abs. 2 Nr. 2 Buchst. b).
 
 ## Çocuk nerede yaşamalı?
 Çocuk **Almanya'da, bir AB ülkesinde veya AEA'da** yaşamalı (Arbeitsagentur sayfası İsviçre'yi de sayıyor; § 63 EStG). **Türkiye** bu ülkeler arasında değil; Türkiye'de yaşayan çocuk için Kindergeld ödenmez.
@@ -32,14 +34,17 @@ TODO: Chancenkarte'nin Kindergeld hakkı verip vermediğini Familienkasse veya A
 2. Oturum izninin Kindergeld hakkı veren türde olduğunu kontrol et.
 3. Familienkasse'ye başvur. Çevrimiçi yol: Bundesagentur für Arbeit portalındaki hesabında Familienkasse profili ve **BundID** ile giriş; yenidoğan için başvuruda senin ve çocuğun Steuer-ID'si gerekir. Kâğıt formu da var: **KG 1** (Antrag auf Kindergeld).
 4. 6 hafta kadar sonra yanıt gelmediyse Familienkasse'yi ara: 0800 4 555530.
+5. Ödeme her ay hesabına yatar; ödeme günü **Kindergeldnummer'ının son hanesine (Endziffer)** göre belirlenir. Güncel tarih tablosu için Arbeitsagentur'un ödeme tarihleri sayfasına bak.
 
-TODO: Yabancılar için KG 1 ekinde istenen belgeleri (Anlage Kind, doğum belgesi, oturum kartı, Anmeldung) Familienkasse'den doğrula; resmi sayfada çevrimiçi yol için yalnızca Steuer-ID'ler sayılıyor.
+TODO: Yabancı aileler için KG 1 başvurusuna eklenecek belgeleri (Anlage Kind, doğum belgesinin kopyası, oturum kartı, Anmeldung) Familienkasse'den doğrula; resmi sayfada çevrimiçi yol için yalnızca Steuer-ID'ler sayılıyor. Anlage Ausland (KG 51) ve doğum belgesi kopyası Arbeitsagentur'da sınır ötesi durumlar için sayılıyor; Almanya'da yaşayan yabancı aileler için de gerekip gerekmediği doğrulanmadı.
 
 ## Geriye dönük ödeme
 Kindergeld, başvurunun alındığı aydan önceki **en fazla 6 ay** için geriye dönük ödenir (§ 70 EStG). Başvuruyu geciktirmek bu yüzden para kaybettirebilir.
 
 ## Çocuğun mesleki eğitimi (Ausbildung)
 18 yaşından büyük çocuk, **25 yaşını doldurmamışsa** ve eğitimdeyse (Ausbildung, okul, üniversite) hesaba katılır (§ 32 Abs. 4 EStG). İlk meslek eğitimi veya ilk üniversite bitiminden sonra çocuk çalışıyorsa hak ancak **haftalık en fazla 20 saat** çalışmayla (veya Ausbildung ilişkisi ya da minijob ile) sürer. Kanun metninde çocuğun kendi geliri için bir euro sınırı yoktur; eski 8.004 € sınırı kalktı. Çocuğun Almanya'da, AB'de veya AEA'da yaşaması şartı aynen geçerlidir.
+- **21 yaşına kadar:** Çalışmayan ve Almanya'daki bir iş ajansına iş arayan olarak kayıtlı çocuk için de hak sürer (§ 32 Abs. 4 S. 1 Nr. 1 EStG).
+- **25 yaşına kadar:** Eğitimde olan çocuk için; ayrıca eğitim yeri bulamadığı için eğitime başlayamayan çocuk da kapsanır (§ 32 Abs. 4 S. 1 Nr. 2).
 
 ## Maliyet ve süre
 - Tutar: çocuk başına ayda **{{setting:kindergeldPerChild}}** (2026).
