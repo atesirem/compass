@@ -1,6 +1,6 @@
 {
   "Site": {
-    "name": "Pusula",
+    "name": "Hedefly",
     "tagline": "Finde deinen Weg in Deutschland: Ratgeber mit Quellen und Datum, Schritt für Schritt."
   },
   "Nav": {
@@ -359,7 +359,7 @@
     },
     "topic": "Thema",
     "allTopics": "Alle Themen",
-    "disclaimer": "Empfohlene Konten und Podcasts gehören unabhängigen Personen oder Organisationen. Pusula ist für deren Inhalte nicht verantwortlich; mit dem Klick auf einen Link wechselst du zu deren Seite und Datenschutzregeln. Mit „Anzeige“ gekennzeichnete Links sind bezahlt oder Partnerlinks.",
+    "disclaimer": "Empfohlene Konten und Podcasts gehören unabhängigen Personen oder Organisationen. Hedefly ist für deren Inhalte nicht verantwortlich; mit dem Klick auf einen Link wechselst du zu deren Seite und Datenschutzregeln. Mit „Anzeige“ gekennzeichnete Links sind bezahlt oder Partnerlinks.",
     "suggest": "Möchtest du ein Konto oder einen Podcast empfehlen?",
     "suggestLink": "Schreib uns",
     "languages": {
@@ -371,7 +371,7 @@
   },
   "About": {
     "title": "Über uns",
-    "intro": "Pusula ist ein Ratgeber für Neuankömmlinge und Menschen in Deutschland, auf Türkisch zuerst (auch auf Deutsch und Englisch). Ziel: Behördenthemen verständlich, mit Quellen und Datum erklären.",
+    "intro": "Hedefly ist ein Ratgeber für Neuankömmlinge und Menschen in Deutschland, auf Türkisch zuerst (auch auf Deutsch und Englisch). Ziel: Behördenthemen verständlich, mit Quellen und Datum erklären.",
     "h1": "Für wen?",
     "p1": "Für alle, die einen Umzug nach Deutschland planen, neu angekommen sind oder in den ersten Jahren Orientierung bei Behördenthemen suchen. Die Informationen sind allgemein und keine verbindliche Auskunft zu deiner Situation.",
     "h2": "Wie entstehen und werden Ratgeber geprüft?",

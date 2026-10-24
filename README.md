@@ -1,4 +1,4 @@
-# Pusula (Germany Guide)
+# Hedefly (Germany Guide)
 
 Multilingual (TR/DE/EN) life and integration guide for people moving to Germany.
 Planning documents live in [`plan/`](plan/).

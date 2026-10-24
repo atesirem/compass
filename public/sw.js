@@ -1,8 +1,8 @@
-// Pusula service worker: offline fallback and fast repeat visits.
+// Hedefly service worker: offline fallback and fast repeat visits.
 // Bump VERSION when this file changes so old caches are removed.
-const VERSION = "v2";
-const STATIC_CACHE = `pusula-static-${VERSION}`;
-const PAGE_CACHE = `pusula-pages-${VERSION}`;
+const VERSION = "v3";
+const STATIC_CACHE = `hedefly-static-${VERSION}`;
+const PAGE_CACHE = `hedefly-pages-${VERSION}`;
 const PRECACHE_URLS = ["/offline.html", "/icons/icon-192.png", "/icons/icon-512.png"];
 
 // Never cache the admin area or API routes

@@ -15,7 +15,7 @@ export default async function PanelLayout({ children }: { children: React.ReactN
         <div className="flex items-center justify-between">
           <Link href="/admin" className="flex items-center gap-3 text-xl font-bold tracking-tight">
             <CompassMark size={30} />
-            Pusula <span className="text-sm font-medium text-on-brand-muted">admin</span>
+            Hedefly <span className="text-sm font-medium text-on-brand-muted">admin</span>
           </Link>
           <div className="lg:hidden">
             <ThemeToggleButton labelToLight="Light theme" labelToDark="Dark theme" />

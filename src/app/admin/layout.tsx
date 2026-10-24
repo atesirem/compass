@@ -6,7 +6,7 @@ import "../globals.css";
 
 const spaceGrotesk = Space_Grotesk({ subsets: ["latin", "latin-ext"], variable: "--font-space-grotesk" });
 
-export const metadata: Metadata = { title: "Pusula Admin", robots: { index: false, follow: false } };
+export const metadata: Metadata = { title: "Hedefly Admin", robots: { index: false, follow: false } };
 
 export default async function AdminRootLayout({ children }: { children: React.ReactNode }) {
   const nonce = await getNonce();

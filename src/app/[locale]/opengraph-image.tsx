@@ -4,7 +4,7 @@ import { OG_SIZE, OgCard } from "@/components/OgCard";
 
 export const size = OG_SIZE;
 export const contentType = "image/png";
-export const alt = "Pusula";
+export const alt = "Hedefly";
 
 export default async function Image({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;

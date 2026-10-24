@@ -7,7 +7,7 @@ export const disclaimer: LegalDocBuilders = {
       {
         heading: "Keine Rechts-, Steuer- oder Gesundheitsberatung",
         paragraphs: [
-          "Pusula bietet allgemeine Informationen für Menschen, die nach Deutschland kommen oder dort leben. Die Inhalte sind keine Rechtsberatung, Steuerberatung, Finanzberatung oder medizinische Beratung und ersetzen diese nicht. Für eine Beurteilung deines Einzelfalls wende dich an die zuständige Behörde, eine Beratungsstelle oder eine fachkundige Person.",
+          "Hedefly bietet allgemeine Informationen für Menschen, die nach Deutschland kommen oder dort leben. Die Inhalte sind keine Rechtsberatung, Steuerberatung, Finanzberatung oder medizinische Beratung und ersetzen diese nicht. Für eine Beurteilung deines Einzelfalls wende dich an die zuständige Behörde, eine Beratungsstelle oder eine fachkundige Person.",
         ],
       },
       {
@@ -43,7 +43,7 @@ export const disclaimer: LegalDocBuilders = {
       {
         heading: "No legal, tax or medical advice",
         paragraphs: [
-          "Pusula provides general information for people who move to or live in Germany. The content is not, and does not replace, legal, tax, financial or medical advice. For an assessment of your individual case, contact the responsible authority, a counselling service or a qualified professional.",
+          "Hedefly provides general information for people who move to or live in Germany. The content is not, and does not replace, legal, tax, financial or medical advice. For an assessment of your individual case, contact the responsible authority, a counselling service or a qualified professional.",
         ],
       },
       {
@@ -79,7 +79,7 @@ export const disclaimer: LegalDocBuilders = {
       {
         heading: "Hukuki, vergisel veya tıbbi tavsiye değildir",
         paragraphs: [
-          "Pusula, Almanya'ya gelen veya orada yaşayan kişilere genel bilgi sunar. İçerik hukuki, vergisel, mali veya tıbbi tavsiye değildir ve bunların yerine geçmez. Kendi durumunun değerlendirilmesi için yetkili kuruma, bir danışma merkezine veya uzman bir kişiye başvur.",
+          "Hedefly, Almanya'ya gelen veya orada yaşayan kişilere genel bilgi sunar. İçerik hukuki, vergisel, mali veya tıbbi tavsiye değildir ve bunların yerine geçmez. Kendi durumunun değerlendirilmesi için yetkili kuruma, bir danışma merkezine veya uzman bir kişiye başvur.",
         ],
       },
       {

@@ -1,6 +1,6 @@
 {
   "Site": {
-    "name": "Pusula",
+    "name": "Hedefly",
     "tagline": "Almanya'da yönünü bul: kaynaklı, tarihli, adım adım rehberler."
   },
   "Nav": {
@@ -359,7 +359,7 @@
     },
     "topic": "Konu",
     "allTopics": "Tüm konular",
-    "disclaimer": "Önerilen hesaplar ve podcast'ler bağımsız kişilere veya kuruluşlara aittir. Onların içeriğinden Pusula sorumlu değildir; bağlantıya tıkladığında onların sitesine ve gizlilik kurallarına geçersin. \"Reklam\" etiketli bağlantılar ücretli veya ortaklık bağlantısıdır.",
+    "disclaimer": "Önerilen hesaplar ve podcast'ler bağımsız kişilere veya kuruluşlara aittir. Onların içeriğinden Hedefly sorumlu değildir; bağlantıya tıkladığında onların sitesine ve gizlilik kurallarına geçersin. \"Reklam\" etiketli bağlantılar ücretli veya ortaklık bağlantısıdır.",
     "suggest": "Bir hesap veya podcast önermek ister misin?",
     "suggestLink": "Bize yaz",
     "languages": {
@@ -371,7 +371,7 @@
   },
   "About": {
     "title": "Hakkında",
-    "intro": "Pusula, Almanya'ya yeni gelenler ve burada yaşayanlar için Türkçe öncelikli (Almanca ve İngilizce de) bir rehber sitesidir. Amacı: resmi işleri anlaşılır, kaynaklı ve tarihli anlatmak.",
+    "intro": "Hedefly, Almanya'ya yeni gelenler ve burada yaşayanlar için Türkçe öncelikli (Almanca ve İngilizce de) bir rehber sitesidir. Amacı: resmi işleri anlaşılır, kaynaklı ve tarihli anlatmak.",
     "h1": "Kimler için?",
     "p1": "Almanya'ya taşınmayı planlayanlar, yeni gelenler ve ilk yıllarında resmi işlerde yol arayanlar için. Bilgiler genel niteliktedir; senin durumun için bağlayıcı bir cevap değildir.",
     "h2": "Bir rehberi nasıl hazırlıyoruz ve doğruluyoruz?",

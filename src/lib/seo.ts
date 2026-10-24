@@ -31,7 +31,7 @@ export function jsonLdString(data: unknown): string {
   return JSON.stringify(data).replace(/</g, "\\u003c");
 }
 
-export const SITE_NAME = "Pusula";
+export const SITE_NAME = "Hedefly";
 
 // A page that sets its own openGraph replaces the inherited one completely, so include everything here
 export function openGraphFor(

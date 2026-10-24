@@ -3,8 +3,8 @@ import type { MetadataRoute } from "next";
 export default function manifest(): MetadataRoute.Manifest {
   return {
     id: "/",
-    name: "Pusula",
-    short_name: "Pusula",
+    name: "Hedefly",
+    short_name: "Hedefly",
     description: "Almanya'da yönünü bul: kaynaklı, tarihli, adım adım rehberler.",
     lang: "tr",
     start_url: "/",

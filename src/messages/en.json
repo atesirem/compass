@@ -1,6 +1,6 @@
 {
   "Site": {
-    "name": "Pusula",
+    "name": "Hedefly",
     "tagline": "Find your way in Germany: sourced, dated, step-by-step guides."
   },
   "Nav": {
@@ -359,7 +359,7 @@
     },
     "topic": "Topic",
     "allTopics": "All topics",
-    "disclaimer": "Recommended accounts and podcasts belong to independent people or organisations. Pusula is not responsible for their content; when you click a link you leave this site and their privacy rules apply. Links marked \"Ad\" are paid or affiliate links.",
+    "disclaimer": "Recommended accounts and podcasts belong to independent people or organisations. Hedefly is not responsible for their content; when you click a link you leave this site and their privacy rules apply. Links marked \"Ad\" are paid or affiliate links.",
     "suggest": "Want to suggest an account or podcast?",
     "suggestLink": "Write to us",
     "languages": {
@@ -371,7 +371,7 @@
   },
   "About": {
     "title": "About",
-    "intro": "Pusula is a guide for newcomers and people living in Germany, Turkish first (also German and English). Its aim: explain official matters clearly, with sources and dates.",
+    "intro": "Hedefly is a guide for newcomers and people living in Germany, Turkish first (also German and English). Its aim: explain official matters clearly, with sources and dates.",
     "h1": "Who is it for?",
     "p1": "For people planning a move to Germany, new arrivals, and anyone finding their way through paperwork in the first years. The information is general and is not a binding answer for your situation.",
     "h2": "How do we write and check a guide?",

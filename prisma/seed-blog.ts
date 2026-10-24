@@ -11,7 +11,7 @@ const posts = [
     status: "DRAFT" as const,
     title: "Almanya'da ilk banka hesabım: C24 deneyimim",
     summary: "Anmeldung'dan sonra C24 ile uygulama üzerinden hesap açtım. Hangi belgeler gerekti, ne kadar sürdü, nelere dikkat ederdim?",
-    authorName: "Pusula",
+    authorName: "Hedefly",
     tags: ["banka", "c24", "ilk-haftalar"],
     guideSlug: "open-bank-account",
     bodyMarkdown: `Almanya'ya geldikten sonra en çok aradığım şey bir IBAN'dı: ev sahibi, işveren ve sigorta için hepsi bir Alman hesabı istiyor. Bu yazıda **C24** ile hesap açma deneyimimi anlatıyorum. Bu bir kişisel deneyimdir; genel kural değildir.

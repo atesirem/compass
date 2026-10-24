@@ -14,7 +14,7 @@ export default function LoginPage() {
         <div className="mb-6 flex items-center gap-3 text-fg">
           <CompassMark size={36} />
           <div>
-            <h1 className="text-2xl font-bold tracking-tight">Pusula</h1>
+            <h1 className="text-2xl font-bold tracking-tight">Hedefly</h1>
             <p className="text-sm text-fg-muted">Admin login</p>
           </div>
         </div>
